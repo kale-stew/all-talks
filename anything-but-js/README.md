@@ -8,7 +8,7 @@ In this talk, I cover the basics of getting started with TypeScript, ReasonML, a
 
 ```sh
 yarn
-yarn start
+yarn run start
 ```
 
 ## Just Looking for Slides?
