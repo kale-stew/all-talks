@@ -1,0 +1,25 @@
+{
+  "name": "ml-on-the-cl",
+  "version": "1.0.0",
+  "author": "Kylie Stewart <kylieastewart@gmail.com>",
+  "homepage": "https://kale-stew.github.io/ml-on-the-cl",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "spectacle": "^4.2.2"
+  },
+  "scripts": {
+    "build": "npm run clean && react-scripts build ./src",
+    "clean": "rm -rf ./build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "prettier": "cat .gitignore .prettierignore > .gitprettierignore && prettier --write --config .prettierrc \"**/*.{js,scss,json}\" --ignore-path .gitprettierignore",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.13.5"
+  }
+}
