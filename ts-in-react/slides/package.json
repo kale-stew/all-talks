@@ -13,11 +13,11 @@
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "^2.1.8",
-    "spectacle": "^4.2.2"
+    "react-scripts": "^3.1.1",
+    "spectacle": "^5.7.0"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^2.1.1"
   },
   "browserslist": [
     ">0.2%",
