@@ -2,7 +2,6 @@
   "name": "ml-on-the-cl",
   "version": "1.0.0",
   "author": "Kylie Stewart <kylieastewart@gmail.com>",
-  "homepage": "https://kale-stew.github.io/ml-on-the-cl",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

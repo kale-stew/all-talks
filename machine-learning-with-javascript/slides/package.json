@@ -2,7 +2,6 @@
   "name": "machine-learning-with-javascript",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://kale-stew.github.io/zeit-day-2018",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",

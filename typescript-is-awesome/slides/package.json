@@ -2,7 +2,6 @@
   "name": "typescript-is-awesome",
   "version": "1.0.0",
   "author": "Kylie Stewart <kylieastewart@gmail.com>",
-  "homepage": "https://kale-stew.github.io/typescript-is-awesome",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",

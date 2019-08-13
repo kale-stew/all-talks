@@ -2,7 +2,6 @@
   "name": "ts-in-react",
   "version": "1.0.0",
   "author": "Kylie Stewart <kylieastewart@gmail.com>",
-  "homepage": "https://kale-stew.github.io/ts-in-react",
   "scripts": {
     "build": "npm run clean && react-scripts build",
     "clean": "rm -rf ./build",

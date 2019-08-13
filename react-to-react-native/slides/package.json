@@ -3,7 +3,6 @@
   "description": "React to React Native: How Hard Could It Be?",
   "version": "1.0.0",
   "author": "Kylie Stewart <kylieastewart@gmail.com>",
-  "homepage": "https://kale-stew.github.io/react-to-react-native",
   "scripts": {
     "build": "npm run clean && react-scripts build",
     "clean": "rm -rf ./build",
