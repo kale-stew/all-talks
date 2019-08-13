@@ -34,43 +34,49 @@ Inspired by [Jason Lengstorf](hhttps://lengstorf.com/)'s own [`presentations` re
 
 ### React to React Native: How Hard Could It Be?
 
+#### (Presented on May 28th, 2019)
+
 - [Slides](./react-to-react-native/final.pdf)
 - [Abstract and Resources](https://github.com/kale-stew/talks/tree/master/react-to-react-native)
 - [Video][react-to-react-native]
-- _(Presented on May 28th, 2019)_
 
 ### TypeScript in React: A Love Story ❤️
+
+#### (Presented on April 16th, 2019)
 
 - [Slides](./ts-in-react/final.pdf)
 - [Abstract and Resources](https://github.com/kale-stew/talks/tree/master/ts-in-react)
 - [Video][ts-in-react]
-- _(Presented on April 16th, 2019)_
 
 ### Anything But JavaScript
 
+#### (Presented on @TODO, 2019)\_
+
 - [Slides](./anything-but-js/final.pdf)
 - [Abstract and Resources](https://github.com/kale-stew/talks/tree/master/anything-but-js)
-- _(Presented on @TODO, 2019)_
 
 ### How TypeScript Made Me a Better JavaScript Developer
 
+#### (Presented on October 25th, 2018)
+
 - [Slides](./ts-is-awesome/final.pdf)
 - [Abstract and Resources](https://github.com/kale-stew/talks/tree/master/ts-is-awesome)
-- _(Presented on October 25th, 2018)_
 
 ### ML on the CL
+
+#### (Presented on June 28th, 2018)
 
 - [Slides](./ml-on-the-cl/final.pdf)
 - [Abstract and Resources](https://github.com/kale-stew/talks/tree/master/ml-on-the-cl)
 - [Video](ml-on-the-cl)
-- _(Presented on June 28th, 2018)_
 
 ### Using JavaScript to Teach Machines How to Do Cool Shit
+
+#### (Presented on April 28th, 2018)
 
 - [Slides](./machine-learning-with-javascript/final.pdf)
 - [Abstract and Resources](https://github.com/kale-stew/talks/tree/master/machine-learning-with-javascript)
 - [Video][machine-learning-with-javascript]
-- _(Presented on April 28th, 2018)_
 
 <!-- ## Workshops
 
