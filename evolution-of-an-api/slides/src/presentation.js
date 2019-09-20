@@ -4,15 +4,15 @@ import {
   Appear,
   BlockQuote,
   Cite,
+  Code,
   Deck,
   Heading,
   Image,
+  List,
+  ListItem,
   Notes,
   Slide,
-  Text,
-  Code,
-  List,
-  ListItem
+  Text
 } from "spectacle";
 
 import createTheme from "spectacle/lib/themes/default";
@@ -40,8 +40,9 @@ const images = {
   FormidaLogo: require("./assets/formidable.png"),
   GraphQL: require("./assets/graphql.png"),
   Programmable: require("./assets/pweb.png"),
-  SampleServer: require("./assets/test-server.png"),
   Salesforce: require("./assets/salesforce.png"),
+  SampleServer: require("./assets/test-server.png"),
+  Shopping: require("./assets/transaction.jpg"),
   Spiderman: require("./assets/types.jpeg"),
   Twitter: require("./assets/twitter.png"),
   eBay: require("./assets/ebay.png")
@@ -84,7 +85,7 @@ export default class Presentation extends Component {
             }
           </Notes>
         </Slide>
-        {/** WHAT IS AN API? */}
+
         <Slide bgColor="purple">
           <Heading textColor="white" size={3}>
             What is an API?
@@ -121,7 +122,12 @@ export default class Presentation extends Component {
             </ul>
           </Notes>
         </Slide>
-        {/** HTTP REQUEST EXAMPLES */}
+
+        <Slide>
+          <Image src={images.Shopping} />
+          <Heading size={4}>It's a contract</Heading>
+        </Slide>
+
         <Slide bgColor="purple">
           <Heading>📚History of APIs</Heading>
           <Notes>
@@ -144,7 +150,7 @@ export default class Presentation extends Component {
           <br />
           <Cite>Martin Bartlett</Cite>
         </Slide>
-        {/** WHAT MAKES A *GOOD* API? */}
+
         <Slide bgColor="white">
           <Heading textColor="purple" fit={true}>
             Successes and Failures
@@ -229,7 +235,7 @@ export default class Presentation extends Component {
           </Heading>
           <br />
           <Appear>
-            <Code>http://del.icio.us/tag/[tag name]/</Code>
+            <Code>http://del.icio.us/tag/[category]></Code>
           </Appear>
           <br />
           <br />
@@ -293,7 +299,12 @@ export default class Presentation extends Component {
           </Appear>
           <Appear>
             <Heading textColor="white" size={4}>
-              ✅ deliver meaninful services
+              ✅ be consistent
+            </Heading>
+          </Appear>
+          <Appear>
+            <Heading textColor="white" size={4}>
+              ✅ deliver meaningful services
             </Heading>
           </Appear>
         </Slide>
@@ -318,6 +329,44 @@ export default class Presentation extends Component {
             </ul>
           </Notes>
         </Slide>
+
+        <Slide bgColor="blue">
+          <Appear>
+            <Heading size={3} textColor="white">
+              <span style={{ color: "orange" }}>S</span>ingle
+            </Heading>
+          </Appear>
+          <br />
+          <Appear>
+            <Heading size={3} textColor="white">
+              <span style={{ color: "orange" }}>O</span>bject
+            </Heading>
+          </Appear>
+          <br />
+          <Appear>
+            <Heading size={3} textColor="white">
+              <span style={{ color: "orange" }}>A</span>ccess
+            </Heading>
+          </Appear>
+          <br />
+          <Appear>
+            <Heading size={3} textColor="white">
+              <span style={{ color: "orange" }}>P</span>rotocol
+            </Heading>
+          </Appear>
+          <Notes>
+            <ul>
+              <li>
+                4 elements in each response/request: Envelope, Header, Body,
+                Fault
+              </li>
+              <li>standard status codes</li>
+              <li>envelope vs postcard</li>
+              <li>formal, logical, secure</li>
+            </ul>
+          </Notes>
+        </Slide>
+
         <Slide bgColor="blue">
           <Appear>
             <Heading size={3} textColor="white">
@@ -354,48 +403,7 @@ export default class Presentation extends Component {
             </ul>
           </Notes>
         </Slide>
-        <Slide bgColor="blue">
-          <Appear>
-            <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>S</span>ingle
-            </Heading>
-          </Appear>
-          <br />
-          <Appear>
-            <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>O</span>bject
-            </Heading>
-          </Appear>
-          <br />
-          <Appear>
-            <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>A</span>ccess
-            </Heading>
-          </Appear>
-          <br />
-          <Appear>
-            <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>P</span>rotocol
-            </Heading>
-          </Appear>
-          <Notes>
-            <ul>
-              <li>
-                using constructs that are familiar to anyone who is accustomed
-                to using the internet's HTTP
-              </li>
-              <li>standard HTTP status codes</li>
-              <li>language agnostic</li>
-              <li>
-                security can still be mixed in: Secure Sockets Layer (SSL)
-                encryption and Transport Layer Security (TLS)
-              </li>
-              <li>
-                cons: they must be stateless, state is managed by the client ***
-              </li>
-            </ul>
-          </Notes>
-        </Slide>
+
         <Slide bgColor="blue">
           <Heading size={3} textColor="white">
             🚀 <i>And Beyond!</i>
