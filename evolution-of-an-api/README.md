@@ -8,13 +8,13 @@ From my talk at [UtahJS](https://conf.utahjs.com/) on September 20th, 2019.
 
 ## Just Looking For Slides?
 
-You could check out this [PDF of my slides](https://github.com/kale-stew/talks/@TODO).
+You could check out this [PDF of my slides](https://github.com/kale-stew/talks/blob/master/evolution-of-an-api/final.pdf).
 
-Or maybe even the [live view](https://github.com/kale-stew/talks/@TODO).
+<!-- Or maybe even the [live view](https://github.com/kale-stew/talks/@TODO). -->
 
 <!-- Or even the [talk itself](COMING SOON!). -->
 
-## Further Reading
+## Further ADading
 
 - For a clear cut guide of what is actually happening under the hood of a Query, GraphQL's [documentation on execution](https://graphql.org/learn/execution/) is a great and thorough walkthrough.
 
