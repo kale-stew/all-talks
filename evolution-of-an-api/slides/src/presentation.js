@@ -502,7 +502,6 @@ export default class Presentation extends Component {
           </Notes>
         </Slide>
 
-        {/** RESOURCES */}
         <Slide bgColor="blue">
           <Heading size={3} textColor="white">
             Getting Started with GraphQL
@@ -514,12 +513,6 @@ export default class Presentation extends Component {
           <Code textColor="white">github.com/kale-stew/talks</Code>
         </Slide>
 
-        {/** SAMPLE APP/SERVER [@TODO] */}
-        <Slide bgColor="blue">
-          <Heading>Hello friends</Heading>
-        </Slide>
-
-        {/** FINAL SLIDE */}
         <Slide bgColor="purple">
           <Heading textColor="white">
             <i>Thank you!</i>
