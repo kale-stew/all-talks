@@ -1,1 +1,6 @@
-spectacle-starter/*
+node_modules/
+yarn.lock
+
+build/
+
+.DS_Store

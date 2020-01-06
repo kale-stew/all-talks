@@ -1,0 +1,41 @@
+{
+  "name": "kale-stew-talks",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kale-stew/talks"
+  },
+  "homepage": "https://kylieis.online/talks",
+  "scripts": {
+    "start": "react-scripts start",
+    "clean": "rm -rf build",
+    "build": "react-scripts build",
+    "predeploy": "yarn clean && yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.8.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "React to React Native: How Hard Could It Be?",
+    "description": "Comparing the browser framework to it's native companion, and contrasting the development approaches",
+    "date": "11/15/2019",
+    "img": "",
+    "url": "",
+    "video": ""
+  },
+  {
+    "title": "TypeScript in React: A Love Story",
+    "description": "",
+    "date": "4/16/2019",
+    "img": "",
+    "url": "",
+    "video": ""
+  },
+  {
+    "title": "How TypeScript Made Me a Better JavaScript Developer",
+    "description": "",
+    "date": "10/25/2018",
+    "img": "",
+    "url": "",
+    "video": ""
+  },
+  {
+    "title": "Machine Learning on the Commandline",
+    "description": "Using Node.js to create scripts that utilize popular machine learning algorithms",
+    "date": "6/28/18",
+    "img": "",
+    "url": "",
+    "video": ""
+  },
+  {
+    "title": "Using JavaScript to Teach Machines How to do Cool ~Shit~ Things",
+    "description": "",
+    "date": "4/28/2018",
+    "img": "",
+    "url": "",
+    "video": ""
+  },
+  {
+    "title": "",
+    "description": "",
+    "date": "",
+    "img": "",
+    "url": "",
+    "video": ""
+  }
+]
