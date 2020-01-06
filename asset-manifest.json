@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/talks/static/css/main.cec8aa05.chunk.css",
+    "main.js": "/talks/static/js/main.3d7badfc.chunk.js",
+    "main.js.map": "/talks/static/js/main.3d7badfc.chunk.js.map",
+    "runtime-main.js": "/talks/static/js/runtime-main.ece4adfc.js",
+    "runtime-main.js.map": "/talks/static/js/runtime-main.ece4adfc.js.map",
+    "static/js/2.a1b3e900.chunk.js": "/talks/static/js/2.a1b3e900.chunk.js",
+    "static/js/2.a1b3e900.chunk.js.map": "/talks/static/js/2.a1b3e900.chunk.js.map",
+    "index.html": "/talks/index.html",
+    "precache-manifest.b42ffce42d21118a51a995057006a230.js": "/talks/precache-manifest.b42ffce42d21118a51a995057006a230.js",
+    "service-worker.js": "/talks/service-worker.js",
+    "static/css/main.cec8aa05.chunk.css.map": "/talks/static/css/main.cec8aa05.chunk.css.map",
+    "static/media/email.png": "/talks/static/media/email.602af25f.png",
+    "static/media/github.png": "/talks/static/media/github.db4fb8da.png",
+    "static/media/instagram.png": "/talks/static/media/instagram.699a77c2.png",
+    "static/media/linkedin.png": "/talks/static/media/linkedin.c7019d12.png",
+    "static/media/twitter.png": "/talks/static/media/twitter.614e6458.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ece4adfc.js",
+    "static/js/2.a1b3e900.chunk.js",
+    "static/css/main.cec8aa05.chunk.css",
+    "static/js/main.3d7badfc.chunk.js"
+  ]
+}
