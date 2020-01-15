@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './fonts.css';
 
-import * as codeSamples from './code-samples.js';
+import * as codeSamples from './code-samples.js.js';
 
 // spectacle-core tags
 import {
