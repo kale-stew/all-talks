@@ -1,19 +1,19 @@
-import React from "react";
-import { withStyles } from "@material-ui/core";
-import Avatar from "@material-ui/core/Avatar";
-import "../app.css";
+import React from 'react';
+import { withStyles } from '@material-ui/core';
+import Avatar from '@material-ui/core/Avatar';
+import '../app.css';
 
 const images = {
-  LogoGithub: require("../logos/github.png"),
-  LogoInstagram: require("../logos/instagram.png"),
-  LogoLinkedIn: require("../logos/linkedin.png"),
-  LogoMail: require("../logos/email.png"),
-  LogoTwitter: require("../logos/twitter.png")
+  LogoGithub: require('../logos/github.png'),
+  LogoInstagram: require('../logos/instagram.png'),
+  LogoLinkedIn: require('../logos/linkedin.png'),
+  LogoMail: require('../logos/email.png'),
+  LogoTwitter: require('../logos/twitter.png')
 };
 
 const KsAvatar = withStyles({
   root: {
-    background: "transparent"
+    background: 'transparent'
   }
 })(Avatar);
 

@@ -5,12 +5,12 @@ header {
 
 h1 {
   font-size: 34.5px;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 h3 {
   font-size: 24px;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-style: italic;
   font-weight: 300;
   margin-bottom: 0px;

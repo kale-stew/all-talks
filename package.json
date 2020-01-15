@@ -7,6 +7,7 @@
   },
   "homepage": "https://kylieis.online/talks",
   "scripts": {
+    "format": "prettier \"**/*.{js,json,ts,css,md}\" --write",
     "start": "react-scripts start",
     "clean": "rm -rf build",
     "build": "react-scripts build",
@@ -21,7 +22,8 @@
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.19.1"
   },
   "eslintConfig": {
     "extends": "react-app"

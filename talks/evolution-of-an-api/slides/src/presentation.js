@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 import {
   Appear,
@@ -13,45 +13,45 @@ import {
   Notes,
   Slide,
   Text
-} from "spectacle";
+} from 'spectacle';
 
-import createTheme from "spectacle/lib/themes/default";
+import createTheme from 'spectacle/lib/themes/default';
 const theme = createTheme(
   {
-    black: "#130119",
-    blue: "#006AE1",
-    pink: "#E10098",
-    purple: "#7700E1",
-    storm: "#111111",
-    white: "#EFEFEF"
+    black: '#130119',
+    blue: '#006AE1',
+    pink: '#E10098',
+    purple: '#7700E1',
+    storm: '#111111',
+    white: '#EFEFEF'
   },
   {
-    primary: "Lato",
-    secondary: "Source Sans Pro"
+    primary: 'Lato',
+    secondary: 'Source Sans Pro'
   }
 );
 
 const images = {
-  Amazon: require("./assets/amazon.png"),
-  Baby: require("./assets/baby.png"),
-  Boom: require("./assets/boom.png"),
-  Facebook: require("./assets/facebook.png"),
-  Flickr: require("./assets/flickr.png"),
-  FormidaLogo: require("./assets/formidable.png"),
-  GraphQL: require("./assets/graphql.png"),
-  Programmable: require("./assets/pweb.png"),
-  Salesforce: require("./assets/salesforce.png"),
-  SampleServer: require("./assets/test-server.png"),
-  Shopping: require("./assets/transaction.jpg"),
-  Spiderman: require("./assets/types.jpeg"),
-  Twitter: require("./assets/twitter.png"),
-  eBay: require("./assets/ebay.png")
+  Amazon: require('./assets/amazon.png'),
+  Baby: require('./assets/baby.png'),
+  Boom: require('./assets/boom.png'),
+  Facebook: require('./assets/facebook.png'),
+  Flickr: require('./assets/flickr.png'),
+  FormidaLogo: require('./assets/formidable.png'),
+  GraphQL: require('./assets/graphql.png'),
+  Programmable: require('./assets/pweb.png'),
+  Salesforce: require('./assets/salesforce.png'),
+  SampleServer: require('./assets/test-server.png'),
+  Shopping: require('./assets/transaction.jpg'),
+  Spiderman: require('./assets/types.jpeg'),
+  Twitter: require('./assets/twitter.png'),
+  eBay: require('./assets/ebay.png')
 };
 
 export default class Presentation extends Component {
   render() {
     return (
-      <Deck transition={["fade"]} theme={theme}>
+      <Deck transition={['fade']} theme={theme}>
         <Slide bgColor="pink">
           <Heading textColor="white" size={3}>
             The Evolution of an API:
@@ -72,7 +72,7 @@ export default class Presentation extends Component {
           </Text>
           <br />
           <Appear>
-            <Image src={images.FormidaLogo} height={"175px"} />
+            <Image src={images.FormidaLogo} height={'175px'} />
           </Appear>
           <Appear>
             <Heading size={5} textColor="white">
@@ -81,7 +81,7 @@ export default class Presentation extends Component {
           </Appear>
           <Notes>
             {
-              "Formidable is a Seattle and London-based engineering consultancy and open source software organization specializing in React.js, React Native, GraphQL, Node.js, and the extended JavaScript ecosystem."
+              'Formidable is a Seattle and London-based engineering consultancy and open source software organization specializing in React.js, React Native, GraphQL, Node.js, and the extended JavaScript ecosystem.'
             }
           </Notes>
         </Slide>
@@ -99,19 +99,19 @@ export default class Presentation extends Component {
         <Slide bgColor="purple">
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>A</span>pplication
+              <span style={{ color: 'orange' }}>A</span>pplication
             </Heading>
           </Appear>
           <br />
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>P</span>rogramming
+              <span style={{ color: 'orange' }}>P</span>rogramming
             </Heading>
           </Appear>
           <br />
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>I</span>nterface
+              <span style={{ color: 'orange' }}>I</span>nterface
             </Heading>
           </Appear>
           <Notes>
@@ -138,7 +138,7 @@ export default class Presentation extends Component {
         <Slide bgColor="purple">
           <BlockQuote
             textColor="white"
-            style={{ width: "825px", fontFamily: "Source Sans Pro" }}
+            style={{ width: '825px', fontFamily: 'Source Sans Pro' }}
           >
             "The concept of an API pre-dates even the advent of personal
             computing, let alone the Web, ... The principal of a well documented
@@ -158,7 +158,7 @@ export default class Presentation extends Component {
           <br />
           <br />
           <br />
-          <div style={{ display: "flex" }}>
+          <div style={{ display: 'flex' }}>
             <Appear>
               <Image src={images.Twitter} height="75px" />
             </Appear>
@@ -264,8 +264,8 @@ export default class Presentation extends Component {
           <Appear>
             <div
               style={{
-                display: "flex",
-                justifyContent: "center"
+                display: 'flex',
+                justifyContent: 'center'
               }}
             >
               <Image src={images.Twitter} height="150px" />
@@ -333,25 +333,25 @@ export default class Presentation extends Component {
         <Slide bgColor="blue">
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>S</span>ingle
+              <span style={{ color: 'orange' }}>S</span>ingle
             </Heading>
           </Appear>
           <br />
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>O</span>bject
+              <span style={{ color: 'orange' }}>O</span>bject
             </Heading>
           </Appear>
           <br />
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>A</span>ccess
+              <span style={{ color: 'orange' }}>A</span>ccess
             </Heading>
           </Appear>
           <br />
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>P</span>rotocol
+              <span style={{ color: 'orange' }}>P</span>rotocol
             </Heading>
           </Appear>
           <Notes>
@@ -370,19 +370,19 @@ export default class Presentation extends Component {
         <Slide bgColor="blue">
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>Re</span>presentational
+              <span style={{ color: 'orange' }}>Re</span>presentational
             </Heading>
           </Appear>
           <br />
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>S</span>tate
+              <span style={{ color: 'orange' }}>S</span>tate
             </Heading>
           </Appear>
           <br />
           <Appear>
             <Heading size={3} textColor="white">
-              <span style={{ color: "orange" }}>T</span>ransfer
+              <span style={{ color: 'orange' }}>T</span>ransfer
             </Heading>
           </Appear>
           <Notes>
@@ -483,15 +483,15 @@ export default class Presentation extends Component {
 
         <Slide bgColor="pink">
           <Heading textColor="white" size={3}>
-            Remember <span style={{ color: "#ff96dc" }}>REST</span> vs{" "}
-            <span style={{ color: "#ff96dc" }}>SOAP</span>?
+            Remember <span style={{ color: '#ff96dc' }}>REST</span> vs{' '}
+            <span style={{ color: '#ff96dc' }}>SOAP</span>?
           </Heading>
           <Notes>GraphQL handles this differently, using...</Notes>
         </Slide>
 
         <Slide bgColor="pink">
           <Heading>
-            Say hello to <span style={{ color: "#ff96dc" }}>resolvers</span>
+            Say hello to <span style={{ color: '#ff96dc' }}>resolvers</span>
           </Heading>
           <Notes>
             <ul>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 // spectacle-core tags
 import {
@@ -16,56 +16,56 @@ import {
   Quote,
   Slide,
   Text
-} from "spectacle";
+} from 'spectacle';
 
 // theme
-import createTheme from "spectacle/lib/themes/default";
+import createTheme from 'spectacle/lib/themes/default';
 const theme = createTheme(
   {
-    aqua: "#3A9BB9",
-    black: "#111111",
-    darkRed: "#7D1513",
-    medRed: "#CC2936",
-    navy: "#08415C",
-    offwhite: "#EFEFEF",
-    primary: "#EFEFEF"
+    aqua: '#3A9BB9',
+    black: '#111111',
+    darkRed: '#7D1513',
+    medRed: '#CC2936',
+    navy: '#08415C',
+    offwhite: '#EFEFEF',
+    primary: '#EFEFEF'
   },
   {
-    primary: "Montserrat",
-    secondary: "Helvetica"
+    primary: 'Montserrat',
+    secondary: 'Helvetica'
   }
 );
 
 // image assets
 const images = {
-  CyaL8r: require("./assets/cya.png"),
-  DumbBot: require("./assets/machinespam.png"),
-  Fail: require("./assets/smart-robot.gif"),
-  FormidaLogo: require("./assets/formidableWhite.png"),
-  Functions: require("./assets/fn-notation.png"),
-  Funnel: require("./assets/funnel.gif"),
-  LetsGo: require("./assets/lets-go.gif"),
-  MistakenTweet: require("./assets/mistaken_tweet.png"),
-  NNDiagram: require("./assets/nn_diagram.png"),
-  NaiveBayes: require("./assets/bayes_theorem.jpg"),
-  Now: require("./assets/red_lobster.png"),
-  Sorting: require("./assets/sorting.png"),
-  Supervised: require("./assets/supervised.png"),
-  TLDR: require("./assets/tldr_types.png"),
-  Throwback: require("./assets/deep-blue.jpg"),
-  Tradeoff: require("./assets/tradeoff.png"),
-  Unsupervised: require("./assets/big_data.jpg")
+  CyaL8r: require('./assets/cya.png'),
+  DumbBot: require('./assets/machinespam.png'),
+  Fail: require('./assets/smart-robot.gif'),
+  FormidaLogo: require('./assets/formidableWhite.png'),
+  Functions: require('./assets/fn-notation.png'),
+  Funnel: require('./assets/funnel.gif'),
+  LetsGo: require('./assets/lets-go.gif'),
+  MistakenTweet: require('./assets/mistaken_tweet.png'),
+  NNDiagram: require('./assets/nn_diagram.png'),
+  NaiveBayes: require('./assets/bayes_theorem.jpg'),
+  Now: require('./assets/red_lobster.png'),
+  Sorting: require('./assets/sorting.png'),
+  Supervised: require('./assets/supervised.png'),
+  TLDR: require('./assets/tldr_types.png'),
+  Throwback: require('./assets/deep-blue.jpg'),
+  Tradeoff: require('./assets/tradeoff.png'),
+  Unsupervised: require('./assets/big_data.jpg')
 };
 
 // code assets
 const codeSamples = {
-  OGBotCode: require("./assets/code/dumb_bot.png")
+  OGBotCode: require('./assets/code/dumb_bot.png')
 };
 
 export default class Presentation extends Component {
   render() {
     return (
-      <Deck transition={["fade"]} theme={theme}>
+      <Deck transition={['fade']} theme={theme}>
         {/** INTRODUCTION */}
         <Slide bgColor="aqua">
           <Heading textColor="offwhite" fit={true}>
@@ -75,8 +75,8 @@ export default class Presentation extends Component {
             to Teach Machines
           </Heading>
           <Heading textColor="offwhite" fit={true}>
-            How to Do{" "}
-            <span style={{ textDecorationLine: "line-through" }}>
+            How to Do{' '}
+            <span style={{ textDecorationLine: 'line-through' }}>
               Basic Things
             </span>
           </Heading>
@@ -98,7 +98,7 @@ export default class Presentation extends Component {
           </Appear>
           <Notes>
             {
-              "Formidable is a Seattle and London-based engineering consultancy and open source software organization specializing in React.js, React Native, GraphQL, Node.js, and the extended JavaScript ecosystem."
+              'Formidable is a Seattle and London-based engineering consultancy and open source software organization specializing in React.js, React Native, GraphQL, Node.js, and the extended JavaScript ecosystem.'
             }
           </Notes>
         </Slide>
@@ -221,7 +221,7 @@ export default class Presentation extends Component {
           <Text textColor="navy">placeholder</Text>
           <Layout>
             <Fill>
-              <Image src={images.Supervised} height={"400px"} />
+              <Image src={images.Supervised} height={'400px'} />
             </Fill>
             <Fill>
               <List textColor="offwhite">
@@ -266,7 +266,7 @@ export default class Presentation extends Component {
         </Slide>
 
         <Slide bgColor="navy">
-          <Image src={images.TLDR} width={"740px"} />
+          <Image src={images.TLDR} width={'740px'} />
           <Notes>
             <List>
               <ListItem>
@@ -364,7 +364,7 @@ export default class Presentation extends Component {
 
         {/** ABOUT THE SECOND DEMO */}
         <Slide bgColor="medRed">
-          <Image src={images.Funnel} width={"500px"} />
+          <Image src={images.Funnel} width={'500px'} />
           <Image src={images.Sorting} />
         </Slide>
 
@@ -422,7 +422,7 @@ export default class Presentation extends Component {
               </Appear>
             </Fill>
           </Layout>
-          <Notes>{"CNN assumes data is an image"}</Notes>
+          <Notes>{'CNN assumes data is an image'}</Notes>
         </Slide>
 
         {/** MANY LAYERS */}
@@ -444,7 +444,7 @@ export default class Presentation extends Component {
         {/** WHY JAVASCRIPT? */}
         <Slide bgColor="medRed">
           <Heading fit={true}>But... JavaScript?</Heading>
-          <Notes>{"reinventing the wheel"}</Notes>
+          <Notes>{'reinventing the wheel'}</Notes>
         </Slide>
 
         {/** THANKS TO THESE LIBRARIES */}
@@ -453,11 +453,11 @@ export default class Presentation extends Component {
             Shoutout to
           </Heading>
           <List textAlign="center" textColor="offwhite">
-            <ListItem>{"https://botnik.org/"}</ListItem>
-            <ListItem>{"https://github.com/mljs/ml"}</ListItem>
-            <ListItem>{"https://github.com/tensorflow/tensorflow"}</ListItem>
-            <ListItem>{"https://github.com/janhuenermann/neurojs"}</ListItem>
-            <ListItem>{"https://github.com/ttezel/twit"}</ListItem>
+            <ListItem>{'https://botnik.org/'}</ListItem>
+            <ListItem>{'https://github.com/mljs/ml'}</ListItem>
+            <ListItem>{'https://github.com/tensorflow/tensorflow'}</ListItem>
+            <ListItem>{'https://github.com/janhuenermann/neurojs'}</ListItem>
+            <ListItem>{'https://github.com/ttezel/twit'}</ListItem>
           </List>
         </Slide>
 

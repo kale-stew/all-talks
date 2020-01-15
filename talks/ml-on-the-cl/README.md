@@ -33,7 +33,7 @@ Go back to > Settings > GitHub Pages > change 'Source' to `gh-pages`
 
 ## Further Reading
 
-- [Machine Learning for Web Developers](https://www.robinwieruch.de/machine-learning-javascript-web-developers/)  - Robin Wieruch
+- [Machine Learning for Web Developers](https://www.robinwieruch.de/machine-learning-javascript-web-developers/) - Robin Wieruch
 - [Machine Learning in Other Languages](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/) - Burak Kanber
 - [A Beginner's Guide to Deep Reinforcement Learning](https://deeplearning4j.org/deepreinforcementlearning)
 

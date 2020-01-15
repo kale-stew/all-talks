@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
-import Footer from "./components/footer";
-import "./app.css";
+import React, { Fragment } from 'react';
+import Footer from './components/footer';
+import './app.css';
 
 export default function App() {
   return (
-    <Fragment style={{ height: "100%" }}>
+    <Fragment style={{ height: '100%' }}>
       <body>
         <header />
         <div className="content">

@@ -56,7 +56,7 @@ const images = {
   Tiny: require('./assets/tiny.gif'),
   Title: require('./assets/title.png'),
   Tradeoff: require('./assets/tradeoff.png'),
-  Unsupervised: require('./assets/big-data.jpg'),
+  Unsupervised: require('./assets/big-data.jpg')
 };
 
 export default class Presentation extends Component {
@@ -81,8 +81,8 @@ export default class Presentation extends Component {
             <Image src={images.FormidaLogo} height="360px" />
           </Appear>
           <Notes>
-            Formidable is a Seattle and London-based engineering consultancy and open source
-            software organization specializing in
+            Formidable is a Seattle and London-based engineering consultancy and
+            open source software organization specializing in
             <ul>
               <li>React.js</li>
               <li>React Native</li>
@@ -107,7 +107,9 @@ export default class Presentation extends Component {
           </Appear>
           <br />
           <Appear>
-            <Text textColor="white">WHAT ARE SOME ADVANTAGES TO USING JAVASCIPT FOR ML?</Text>
+            <Text textColor="white">
+              WHAT ARE SOME ADVANTAGES TO USING JAVASCIPT FOR ML?
+            </Text>
           </Appear>
           <br />
           <Appear>
@@ -129,10 +131,13 @@ export default class Presentation extends Component {
           <Notes>
             <ul>
               <li>He coined the term "machine learning" in 1959</li>
-              <li>built one of the world's first successful self-learning programs</li>
+              <li>
+                built one of the world's first successful self-learning programs
+              </li>
               <li>=> Samuel Checkers-playing Program</li>
               <li>
-                one of the first to demonstrate the fundamental concept of artificial intelligence
+                one of the first to demonstrate the fundamental concept of
+                artificial intelligence
               </li>
             </ul>
           </Notes>
@@ -153,8 +158,8 @@ export default class Presentation extends Component {
               <ListItem>list of outputs, y</ListItem>
               <ListItem>we would normally write the func</ListItem>
               <ListItem>
-                instead, we are training the machine to approximate the function that converts x to
-                y
+                instead, we are training the machine to approximate the function
+                that converts x to y
               </ListItem>
             </List>
           </Notes>
@@ -200,7 +205,8 @@ export default class Presentation extends Component {
             Python
             <ul>
               <li>
-                already equipped with well-suited and well-supported libraries for neccessary tasks
+                already equipped with well-suited and well-supported libraries
+                for neccessary tasks
               </li>
               <li>powerful C++ bindings</li>
             </ul>
@@ -208,7 +214,8 @@ export default class Presentation extends Component {
             <ul>
               <li>don't have to learn a new programming language</li>
               <li>
-                an accessible technology: can be used for desktop, mobile, backend, embedded systems
+                an accessible technology: can be used for desktop, mobile,
+                backend, embedded systems
               </li>
               <li>we have the libraries</li>
             </ul>
@@ -327,7 +334,9 @@ export default class Presentation extends Component {
           <Image src={images.TLDR} width="640px" />
           <Notes>
             <ul>
-              <li>to better understand the learning types, we can look at the data</li>
+              <li>
+                to better understand the learning types, we can look at the data
+              </li>
               <li>discrete: individual, specific data points</li>
               <li>continuous: wide-ranging values</li>
             </ul>
@@ -394,7 +403,10 @@ export default class Presentation extends Component {
           <Notes>
             <ul>
               <li>inspired by the structure and function of the brain</li>
-              <li>ANNs are algorithms that mimic the biological structure of the brain</li>
+              <li>
+                ANNs are algorithms that mimic the biological structure of the
+                brain
+              </li>
               <li>"neurons" => discrete layers, connect to other neurons</li>
               <li>each layer focuses on a specific feature</li>
               <li>depth, not width, of understanding is the goal</li>
@@ -428,7 +440,10 @@ export default class Presentation extends Component {
             <ul>
               <li>a bunch of little maps</li>
               <li>teach themselves purely by looking at data</li>
-              <li>capable of learning in a nonlinear way --> they can spot non-obvious features</li>
+              <li>
+                capable of learning in a nonlinear way --> they can spot
+                non-obvious features
+              </li>
               <li>pooling --> parses into more digestible form</li>
             </ul>
           </Notes>
