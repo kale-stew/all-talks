@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Footer from './components/footer';
-import './app.css';
+import './index.css';
 
 export default function App() {
   return (

@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300i,500i,700&display=swap');
-
-* {
-  color: #2b2b2b;
-}
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,700,700i&display=swap');
 
 html,
 body {
@@ -11,15 +7,30 @@ body {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #2b2b2b;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
 }
 
-code {
-  font-family: 'Fira Sans', sans-serif;
+header {
+  background-image: linear-gradient(to right, #2f1c94, #cb067a);
+  min-height: 65px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #2f1c94, #cb067a);
+  min-height: 45px;
+  max-height: 65px;
+  padding: 18px 12px;
+  position: sticky;
+  bottom: 0;
+}
+
+footer a {
+  margin-right: 12px;
+  padding-bottom: 12px;
 }
 
 a,
@@ -28,18 +39,46 @@ a:visited,
 a:active {
   color: #cb067a;
   text-decoration: none;
-  font-size: 14px;
-  margin-left: 25px;
 }
 
 a:hover {
   border-bottom: 1.5px solid #cb067a;
   font-style: italic;
-  margin-left: 25px;
 }
 
 b {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: italic;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 12px;
+  margin-left: -15px;
+}
+
+.content {
+  height: 100%;
+  padding: 10px 25px;
 }
