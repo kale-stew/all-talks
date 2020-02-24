@@ -6,7 +6,7 @@
    _presented at **UtahJS** on September 20th, 2019_
 
 2. [React to React Native: How Hard Could It Be?](./react-to-react-native/README.md)
-   _presented at **RVA.js** on November TODO, 2019_
+   _presented at **RVA.js** on November 15th, 2019_
 
 ## Meetups
 

@@ -11,14 +11,15 @@ Remaining to-do's:
 
 ## Development
 
-Every new entry is added to [`talks.json`](./src/talks.json) in the following format:
+Every new entry is added to [`talks.json`](./talks/talks.json) in the following format:
 
 ```json
 {
-  "title": "",
-  "abstract": "",
   "eventDate": "",
+  "title": "",
+  "description": "",
   "eventName": "",
+  "eventType": "[conference || meetup]",
   "exportedSlidesUrl": "",
   "hostedSlidesUrl": "",
   "previewImg": ""

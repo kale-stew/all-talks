@@ -1,50 +1,72 @@
 [
   {
-    "title": "React to React Native: How Hard Could It Be?",
-    "description": "Comparing the browser framework to it's native companion, and contrasting the development approaches",
-    "date": "11/15/2019",
-    "img": "",
-    "url": "",
-    "video": ""
-  },
-  {
-    "title": "TypeScript in React: A Love Story",
-    "description": "",
-    "date": "4/16/2019",
-    "img": "",
-    "url": "",
-    "video": ""
-  },
-  {
-    "title": "How TypeScript Made Me a Better JavaScript Developer",
-    "description": "",
-    "date": "10/25/2018",
-    "img": "",
-    "url": "",
-    "video": ""
-  },
-  {
-    "title": "Machine Learning on the Commandline",
-    "description": "Using Node.js to create scripts that utilize popular machine learning algorithms",
-    "date": "6/28/18",
-    "img": "",
-    "url": "",
-    "video": ""
-  },
-  {
+    "eventDate": "4/28/2018",
     "title": "Using JavaScript to Teach Machines How to do Cool ~Shit~ Things",
     "description": "",
-    "date": "4/28/2018",
-    "img": "",
-    "url": "",
-    "video": ""
+    "eventName": "Zeit Day",
+    "eventType": "conference",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": ""
   },
   {
-    "title": "",
+    "eventDate": "6/28/2018",
+    "title": "Machine Learning on the Command Line",
+    "description": "Using Node.js to create scripts that utilize popular machine learning algorithms",
+    "eventName": "js.la",
+    "eventType": "meetup",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": ""
+  },
+  {
+    "eventDate": "10/25/2018",
+    "title": "How TypeScript Made Me a Better JavaScript Developer",
     "description": "",
-    "date": "",
-    "img": "",
-    "url": "",
-    "video": ""
+    "eventName": "Formidable Denver Open House",
+    "eventType": "meetup",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": ""
+  },
+  {
+    "eventDate": "4/16/2019",
+    "title": "TypeScript in React: A Love Story",
+    "description": "",
+    "eventName": "React Denver",
+    "eventType": "meetup",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": ""
+  },
+  {
+    "eventDate": "5/28/2019",
+    "title": "React to React Native: How Hard Could It Be?",
+    "description": "Comparing the browser framework to it's native companion, and contrasting the development approaches",
+    "eventName": "DenverScript",
+    "eventType": "meetup",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": ""
+  },
+  {
+    "eventDate": "9/20/2019",
+    "title": "Evolution of an API: A Case for GraphQL",
+    "description": "",
+    "eventName": "UtahJS",
+    "eventType": "conference",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": ""
+  },
+  {
+    "eventDate": "11/15/2019",
+    "title": "React to React Native: How Hard Could It Be?",
+    "description": "Comparing the browser framework to it's native companion, and contrasting the development approaches",
+    "eventName": "RVA.js",
+    "eventType": "conference",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": ""
   }
 ]
