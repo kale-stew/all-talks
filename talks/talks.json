@@ -33,6 +33,17 @@
     "recordedPresentationUrl": null
   },
   {
+    "eventDate": "TODO_galvanize_presentation_date",
+    "title": "Anything but JavaScript",
+    "description": "",
+    "eventName": "Galvanize: Learn to Code",
+    "eventType": "meetup",
+    "exportedSlidesUrl": "",
+    "hostedSlidesUrl": "",
+    "previewImg": "",
+    "recordedPresentationUrl": null
+  },
+  {
     "eventDate": "4/16/2019",
     "title": "TypeScript in React: A Love Story",
     "description": "",
