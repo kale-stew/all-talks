@@ -5,9 +5,10 @@
     "description": "",
     "eventName": "Zeit Day",
     "eventType": "conference",
-    "exportedSlidesUrl": "",
-    "hostedSlidesUrl": "",
-    "previewImg": ""
+    "exportedSlidesUrl": "https://github.com/kale-stew/zeit-day-2018/blob/master/final.pdf",
+    "hostedSlidesUrl": "https://kale-stew.github.io/zeit-day-2018/",
+    "previewImg": "",
+    "recordedPresentationUrl": "https://youtu.be/QaV7a64mUYE"
   },
   {
     "eventDate": "6/28/2018",
@@ -15,9 +16,10 @@
     "description": "Using Node.js to create scripts that utilize popular machine learning algorithms",
     "eventName": "js.la",
     "eventType": "meetup",
-    "exportedSlidesUrl": "",
-    "hostedSlidesUrl": "",
-    "previewImg": ""
+    "exportedSlidesUrl": "https://github.com/kale-stew/ml-on-the-cl/blob/master/final.pdf",
+    "hostedSlidesUrl": "https://kale-stew.github.io/ml-on-the-cl",
+    "previewImg": "",
+    "recordedPresentationUrl": "https://youtu.be/MzrDy4s8MF8"
   },
   {
     "eventDate": "10/25/2018",
@@ -25,9 +27,10 @@
     "description": "",
     "eventName": "Formidable Denver Open House",
     "eventType": "meetup",
-    "exportedSlidesUrl": "",
-    "hostedSlidesUrl": "",
-    "previewImg": ""
+    "exportedSlidesUrl": "https://github.com/kale-stew/typescript-is-awesome/blob/master/final.pdf",
+    "hostedSlidesUrl": "https://kale-stew.github.io/typescript-is-awesome/",
+    "previewImg": "",
+    "recordedPresentationUrl": null
   },
   {
     "eventDate": "4/16/2019",
@@ -35,9 +38,10 @@
     "description": "",
     "eventName": "React Denver",
     "eventType": "meetup",
-    "exportedSlidesUrl": "",
-    "hostedSlidesUrl": "",
-    "previewImg": ""
+    "exportedSlidesUrl": "https://github.com/kale-stew/ts-in-react/blob/master/final.pdf",
+    "hostedSlidesUrl": "https://kale-stew.github.io/ts-in-react/",
+    "previewImg": "",
+    "recordedPresentationUrl": "https://youtu.be/iBlGIS-UQsw?t=1638"
   },
   {
     "eventDate": "5/28/2019",
@@ -45,9 +49,10 @@
     "description": "Comparing the browser framework to it's native companion, and contrasting the development approaches",
     "eventName": "DenverScript",
     "eventType": "meetup",
-    "exportedSlidesUrl": "",
-    "hostedSlidesUrl": "",
-    "previewImg": ""
+    "exportedSlidesUrl": "https://github.com/kale-stew/react-to-react-native/blob/master/final.pdf",
+    "hostedSlidesUrl": "https://kale-stew.github.io/react-to-react-native/",
+    "previewImg": "",
+    "recordedPresentationUrl": "https://youtu.be/87trwew9Hik?t=1587"
   },
   {
     "eventDate": "9/20/2019",
@@ -55,9 +60,10 @@
     "description": "",
     "eventName": "UtahJS",
     "eventType": "conference",
-    "exportedSlidesUrl": "",
+    "exportedSlidesUrl": "https://github.com/kale-stew/talks/blob/master/evolution-of-an-api/final.pdf",
     "hostedSlidesUrl": "",
-    "previewImg": ""
+    "previewImg": "",
+    "recordedPresentationUrl": ""
   },
   {
     "eventDate": "11/15/2019",
@@ -67,6 +73,7 @@
     "eventType": "conference",
     "exportedSlidesUrl": "",
     "hostedSlidesUrl": "",
-    "previewImg": ""
+    "previewImg": "",
+    "recordedPresentationUrl": ""
   }
 ]

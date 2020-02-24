@@ -12,7 +12,6 @@
     "build": "npm run clean && react-scripts build",
     "clean": "rm -rf ./build",
     "deploy": "gh-pages -d build",
- 
     "dev":  "react-scripts start"
   },
   "devDependencies": {
