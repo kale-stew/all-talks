@@ -25,7 +25,7 @@ yarn
 # run development server
 yarn run dev
 # alias for
-# react-scripts start
+# webpack-dev-server --port=3100 --hot --config webpack.config.js
 ```
 
 ### Deployment
@@ -34,37 +34,10 @@ yarn run dev
 # create a new build of the slides
 yarn run build
 # alias for
-# rm -rf ./build && react-scripts build
+# rm -rf ./build && builder run build-webpack-base -- --config webpack.config.js
 
 # deploy the new build to gh-pages
 yarn run deploy
 # alias for
 # gh-pages -d build
-```
-
-### `package.json`
-
-The following scripts and dependencies are standard for most of my new spectacle presentations.
-
-```json
-{
-  "name": "TODO_talk_title",
-  "version": "1.0.0",
-  "author": "Kylie Stewart <kylie@kyliestewart.tech>",
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
-    "spectacle": "^6.0.0"
-  },
-  "scripts": {
-    "build": "npm run clean && react-scripts build",
-    "clean": "rm -rf ./build",
-    "dev": "react-scripts start",
-    "deploy": "gh-pages -d build"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
-  }
-}
 ```
