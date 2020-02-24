@@ -8,7 +8,7 @@
   "homepage": "https://kylieis.online/talks",
   "scripts": {
     "format": "prettier \"**/*.{js,json,ts,css,md}\" --write",
-    "start": "react-scripts start",
+    "dev":  "react-scripts start",
     "clean": "rm -rf build",
     "build": "react-scripts build",
     "predeploy": "yarn clean && yarn build",

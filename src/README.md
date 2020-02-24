@@ -1,8 +1,8 @@
 # Talks Blog
 
 This is the source code for a blog that hosts all of my talk READMEs
-as static content, routing folks to my slides, recorded presentations,
-and third party resources.
+as static content. It serves to route folks to my slides, recorded
+presentations, and third party resources.
 
 ### Development
 

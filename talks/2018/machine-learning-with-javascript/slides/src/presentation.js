@@ -138,7 +138,6 @@ export default class Presentation extends Component {
           </Appear>
         </Slide>
 
-        {/** LET'S GET STARTED */}
         <Slide bgColor="navy" align="center center">
           <Image height="500px" src={images.LetsGo} />
           <Notes>{"Let's do this"}</Notes>
