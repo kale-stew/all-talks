@@ -1,0 +1,30 @@
+{
+  "name": "TODO_talk_title",
+  "version": "1.0.0",
+  "author": "Kylie Stewart <kylie@kyliestewart.tech>",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "spectacle": "^6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "prettier": "prettier \"**/*.{js,json,ts,css,md}\"",
+    "format": "yarn prettier --write && yarn lint --fix",
+    "dev": "webpack-dev-server --port=3100 --hot --config webpack.config.js",
+    "build": "npm run clean && builder run build-webpack-base -- --config webpack.config.js",
+    "clean": "rm -rf ./build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "builder": "^4.0.0",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.15.3",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0"
+  }
+}

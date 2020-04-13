@@ -17,6 +17,8 @@ const KsAvatar = withStyles({
   }
 })(Avatar);
 
+// @ISSUE -- link deco is jumpy onHover
+
 const Footer = () => (
   <footer>
     <a href="https://kyliestewart.tech">

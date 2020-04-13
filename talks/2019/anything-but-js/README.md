@@ -4,13 +4,6 @@ These are the slides and demos from my talk at [Galvanize Platte](https://www.ga
 
 In this talk, I cover the basics of getting started with TypeScript, ReasonML, and machine learning.
 
-## Getting Started
-
-```sh
-yarn
-yarn run start
-```
-
 ## Just Looking for Slides?
 
 You could check out this [PDF of my slides](https://github.com/kale-stew/anything-but-js/blob/master/final.pdf).
