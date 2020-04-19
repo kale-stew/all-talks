@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import Card from './components/card';
 import Footer from './components/footer';
-import talks from './talks.json';
+import talks from './talks';
 import './index.css';
 
 /**

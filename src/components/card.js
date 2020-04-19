@@ -14,9 +14,20 @@ const EventInfo = styled('div')`
 
 const ImgWrapper = styled('div')``;
 
-const TalkDescription = styled('span')``;
+const TalkDescription = styled('span')`
+  font-style: italic;
+  word-wrap: break-word;
+  width: 345px;
+  align-self: center;
+`;
 
-const TalkTitle = styled('span')``;
+const TalkTitle = styled('span')`
+  width: 300px;
+  align-self: center;
+  font-size: 28px;
+  font-weight: 300;
+  padding-bottom: 0.45rem;
+`;
 
 const Card = ({ talk }) => (
   <CardWrapper>
@@ -32,23 +43,21 @@ const Card = ({ talk }) => (
       <span>{talk.eventDate}</span>
     </EventInfo>
     <a
-      href={talk.exportedSlidesUrl}
-      title={`Link to exported slides for ${talk.title}`}
-    >
-      <span>See a PDF of slides</span>
-    </a>
-    <a
       href={talk.hostedSlidesUrl}
-      title={`Link to exported slides for ${talk.title}`}
+      title={`Link to live hosted slides for ${talk.title}`}
     >
-      <span>See the live slides</span>
+      <span role="img" aria-label="Click to visit the slides">
+        💻 → Check out the slides
+      </span>
     </a>
     {talk.recordedPresentationUrl && (
       <a
         href={talk.recordedPresentationUrl}
-        title={`Link to exported slides for ${talk.title}`}
+        title={`Link to a recording of ${talk.title}`}
       >
-        <span>See a recording of the presentation</span>
+        <span role="img" aria-label="Click to watch the recorded presentation">
+          📹 → Watch a recording of the presentation
+        </span>
       </a>
     )}
   </CardWrapper>
