@@ -24,6 +24,7 @@ footer {
   background-image: linear-gradient(to right, #2f1c94, #cb067a);
   min-height: 45px;
   max-height: 65px;
+  min-width: 100vw;
   padding: 18px 12px;
   position: sticky;
   bottom: 0;
@@ -77,9 +78,4 @@ li {
   list-style: none;
   margin-bottom: 12px;
   margin-left: -15px;
-}
-
-.content {
-  height: 100%;
-  padding: 10px 25px;
 }

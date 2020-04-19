@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const CardWrapper = styled('div')`
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 260px;
 `;
 
 const EventInfo = styled('div')`
