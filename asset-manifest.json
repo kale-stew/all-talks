@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/talks/static/css/main.8292169e.chunk.css",
+    "main.css": "/talks/static/css/main.4654fbe2.chunk.css",
     "main.js": "/talks/static/js/main.de093a0b.chunk.js",
     "main.js.map": "/talks/static/js/main.de093a0b.chunk.js.map",
     "runtime-main.js": "/talks/static/js/runtime-main.ece4adfc.js",
@@ -8,9 +8,9 @@
     "static/js/2.0abb5e4b.chunk.js": "/talks/static/js/2.0abb5e4b.chunk.js",
     "static/js/2.0abb5e4b.chunk.js.map": "/talks/static/js/2.0abb5e4b.chunk.js.map",
     "index.html": "/talks/index.html",
-    "precache-manifest.57d5dfd8757bbd17d7ecf58e290f2588.js": "/talks/precache-manifest.57d5dfd8757bbd17d7ecf58e290f2588.js",
+    "precache-manifest.5695aa505a9c06b67eccfd3fff99d1bc.js": "/talks/precache-manifest.5695aa505a9c06b67eccfd3fff99d1bc.js",
     "service-worker.js": "/talks/service-worker.js",
-    "static/css/main.8292169e.chunk.css.map": "/talks/static/css/main.8292169e.chunk.css.map",
+    "static/css/main.4654fbe2.chunk.css.map": "/talks/static/css/main.4654fbe2.chunk.css.map",
     "static/media/email.png": "/talks/static/media/email.602af25f.png",
     "static/media/github.png": "/talks/static/media/github.db4fb8da.png",
     "static/media/instagram.png": "/talks/static/media/instagram.699a77c2.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ece4adfc.js",
     "static/js/2.0abb5e4b.chunk.js",
-    "static/css/main.8292169e.chunk.css",
+    "static/css/main.4654fbe2.chunk.css",
     "static/js/main.de093a0b.chunk.js"
   ]
 }
