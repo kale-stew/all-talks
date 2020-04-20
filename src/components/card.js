@@ -39,6 +39,29 @@ const TalkLink = styled('a')`
   color: #cb067a;
 `;
 
+// TODO - make these interchangeable
+// <Tag type={talk.eventType} />
+// background-color: type === 'meetup' ? #db0606 : #ddaa03;
+const MeetupTag = styled('span')`
+  background-color: #db0606;
+  color: #fff;
+  font-size: 10px;
+  height: 12px;
+  align-self: center;
+  padding: 0.2rem;
+  margin-top: 0.6rem;
+`;
+
+const ConferenceTag = styled('span')`
+  background-color: #ddaa03;
+  color: #fff;
+  font-size: 10px;
+  height: 12px;
+  align-self: center;
+  padding: 0.2rem;
+  margin-top: 0.6rem;
+`;
+
 const Card = ({ talk }) => (
   <CardWrapper>
     <TalkTitle>{talk.title}</TalkTitle>
@@ -47,6 +70,11 @@ const Card = ({ talk }) => (
       <ImgWrapper>
         <img src={talk.previewImg} alt={`${talk.title} slide preview`} />
       </ImgWrapper>
+    )}
+    {talk.eventType === 'meetup' ? (
+      <MeetupTag>MEETUP</MeetupTag>
+    ) : (
+      <ConferenceTag>CONFERENCE</ConferenceTag>
     )}
     <EventInfo>
       <span>{talk.eventName} － </span>
