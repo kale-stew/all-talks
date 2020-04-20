@@ -21,19 +21,18 @@ const talks = [
     exportedSlidesUrl:
       'https://github.com/kale-stew/typescript-is-awesome/blob/master/final.pdf',
     hostedSlidesUrl: 'https://kale-stew.github.io/typescript-is-awesome/',
-    // "previewImg": require("./assets/ts-js-cover.png"),
     recordedPresentationUrl: null
   },
   {
     eventDate: '11/15/2019',
     title: 'React to React Native: How Hard Could It Be?',
     description:
-      "Comparing the browser framework to it's native companion, and contrasting the development approaches",
+      "Comparing the browser framework to it's native companion, and contrasting the development approaches.",
     eventName: 'RVA.js',
     eventType: 'conference',
     exportedSlidesUrl: '',
     hostedSlidesUrl: '',
-    recordedPresentationUrl: ''
+    recordedPresentationUrl: 'https://www.youtube.com/watch?v=i3DYPaHXLeo'
   },
   // {
   //   "eventDate": "5/28/2019",
@@ -48,18 +47,18 @@ const talks = [
   {
     eventDate: '9/20/2019',
     title: 'Evolution of an API: A Case for GraphQL',
-    description: '',
+    description: 'A discussion of API development over the years, and how GraphQL has evolved to address the problems that have arisen in that time.',
     eventName: 'UtahJS',
     eventType: 'conference',
     exportedSlidesUrl:
       'https://github.com/kale-stew/talks/blob/master/evolution-of-an-api/final.pdf',
     hostedSlidesUrl: '',
-    recordedPresentationUrl: ''
+    recordedPresentationUrl: 'https://www.youtube.com/watch?v=RhQx579OTVc'
   },
   {
     eventDate: '4/16/2019',
     title: 'TypeScript in React: A Love Story',
-    description: '',
+    description: 'An overview of practices my team found beneficial while integrating TypeScript into a React monorepo.',
     eventName: 'React Denver',
     eventType: 'meetup',
     exportedSlidesUrl:
@@ -70,7 +69,7 @@ const talks = [
   {
     eventDate: '4/28/2018',
     title: 'Using JavaScript to Teach Machines How to do Cool Things',
-    description: '',
+    description: "A gentle introduction to machine learning - defining basic algorithms and discussing why we wouldn't usually use JS to implement them.",
     eventName: 'Zeit Day',
     eventType: 'conference',
     exportedSlidesUrl:
