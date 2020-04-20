@@ -66,9 +66,19 @@ const orderByDateDesc = talks => {
   );
 };
 
+const fetchConferences = talks => {
+  return talks && talks.filter(talk => talk.eventType === 'conference');
+};
+
+const fetchMeetups = talks => {
+  return talks && talks.filter(talk => talk.eventType === 'meetup');
+};
+
 export const FILTERS = [
   { name: 'Sort by Date (Newest First)', function: orderByDateAsc },
   { name: 'Sort by Date (Oldest First)', function: orderByDateDesc },
   { name: 'Sort by Title (A → Z)', function: orderByTitleAsc },
-  { name: 'Sort by Title (Z → A)', function: orderByTitleDesc }
+  { name: 'Sort by Title (Z → A)', function: orderByTitleDesc },
+  { name: 'Show all Meetup talks', function: fetchMeetups },
+  { name: 'Show all Conference talks', function: fetchConferences }
 ];
