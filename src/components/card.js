@@ -2,10 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import { formatDate } from '../filters';
+
 const CardWrapper = styled('div')`
   display: flex;
   flex-direction: column;
   width: 260px;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 3rem;
+  }
 `;
 
 const EventInfo = styled('div')`
@@ -29,6 +35,10 @@ const TalkTitle = styled('span')`
   padding-bottom: 0.45rem;
 `;
 
+const TalkLink = styled('a')`
+  color: #cb067a;
+`;
+
 const Card = ({ talk }) => (
   <CardWrapper>
     <TalkTitle>{talk.title}</TalkTitle>
@@ -39,26 +49,26 @@ const Card = ({ talk }) => (
       </ImgWrapper>
     )}
     <EventInfo>
-      <span style={{ paddingRight: '1rem' }}>{talk.eventName}</span>
-      <span>{talk.eventDate}</span>
+      <span>{talk.eventName} － </span>
+      <span>{formatDate(talk.eventDate)}</span>
     </EventInfo>
-    <a
+    <TalkLink
       href={talk.hostedSlidesUrl}
       title={`Link to live hosted slides for ${talk.title}`}
     >
       <span role="img" aria-label="Click to visit the slides">
         💻 → Check out the slides
       </span>
-    </a>
+    </TalkLink>
     {talk.recordedPresentationUrl && (
-      <a
+      <TalkLink
         href={talk.recordedPresentationUrl}
         title={`Link to a recording of ${talk.title}`}
       >
         <span role="img" aria-label="Click to watch the recorded presentation">
           📹 → Watch a recording of the presentation
         </span>
-      </a>
+      </TalkLink>
     )}
   </CardWrapper>
 );
