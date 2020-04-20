@@ -16,7 +16,6 @@ body {
 header {
   background-image: linear-gradient(to right, #2f1c94, #cb067a);
   min-height: 65px;
-  width: 100vw;
   display: flex;
   color: #ffffffd1;
   align-items: center;
@@ -59,7 +58,6 @@ footer {
   background-image: linear-gradient(to right, #2f1c94, #cb067a);
   min-height: 45px;
   max-height: 65px;
-  min-width: 100vw;
   padding: 18px 12px;
   position: sticky;
   bottom: 0;
