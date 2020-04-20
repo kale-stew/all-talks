@@ -1,5 +1,5 @@
 // A → Z
-export const orderByTitleAsc = talks => {
+const orderByTitleAsc = talks => {
   return (
     talks &&
     talks.sort((a, b) => {
@@ -11,7 +11,7 @@ export const orderByTitleAsc = talks => {
 };
 
 // Z → A
-export const orderByTitleDesc = talks => {
+const orderByTitleDesc = talks => {
   return (
     talks &&
     talks.sort((a, b) => {
@@ -43,7 +43,7 @@ export const formatDate = date => {
 };
 
 // Now → Then
-export const orderByDateAsc = talks => {
+const orderByDateAsc = talks => {
   return (
     talks &&
     talks.sort((a, b) => {
@@ -55,7 +55,7 @@ export const orderByDateAsc = talks => {
 };
 
 // Then → Now
-export const orderByDateDesc = talks => {
+const orderByDateDesc = talks => {
   return (
     talks &&
     talks.sort((a, b) => {
@@ -65,3 +65,10 @@ export const orderByDateDesc = talks => {
     })
   );
 };
+
+export const FILTERS = [
+  { name: 'Sort by Date (Newest First)', function: orderByDateAsc },
+  { name: 'Sort by Date (Oldest First)', function: orderByDateDesc },
+  { name: 'Sort by Title (A → Z)', function: orderByTitleAsc },
+  { name: 'Sort by Title (Z → A)', function: orderByTitleDesc }
+];

@@ -7,12 +7,7 @@ import Footer from './components/footer';
 import ALL_TALKS from './talks';
 import './index.css';
 
-import {
-  orderByDateAsc,
-  orderByDateDesc,
-  orderByTitleAsc,
-  orderByTitleDesc
-} from './filters';
+import { FILTERS } from './filters';
 
 const ContentWrapper = styled('div')`
   height: 100%;
@@ -42,13 +37,6 @@ const HeaderTitle = styled('h3')`
     padding-right: 15px;
   }
 `;
-
-const FILTERS = [
-  { name: 'Sort by Date (Newest First)', function: orderByDateAsc },
-  { name: 'Sort by Date (Oldest First)', function: orderByDateDesc },
-  { name: 'Sort by Title (A → Z)', function: orderByTitleAsc },
-  { name: 'Sort by Title (Z → A)', function: orderByTitleDesc }
-];
 
 const App = () => {
   const [, setFilter] = useState('');
