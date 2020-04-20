@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/talks/static/css/main.747e9489.chunk.css",
-    "main.js": "/talks/static/js/main.8f3f8fbc.chunk.js",
-    "main.js.map": "/talks/static/js/main.8f3f8fbc.chunk.js.map",
+    "main.js": "/talks/static/js/main.f92985c2.chunk.js",
+    "main.js.map": "/talks/static/js/main.f92985c2.chunk.js.map",
     "runtime-main.js": "/talks/static/js/runtime-main.ece4adfc.js",
     "runtime-main.js.map": "/talks/static/js/runtime-main.ece4adfc.js.map",
     "static/js/2.0abb5e4b.chunk.js": "/talks/static/js/2.0abb5e4b.chunk.js",
     "static/js/2.0abb5e4b.chunk.js.map": "/talks/static/js/2.0abb5e4b.chunk.js.map",
     "index.html": "/talks/index.html",
-    "precache-manifest.9c8fc637b926b5bf24a299c5220ef3b3.js": "/talks/precache-manifest.9c8fc637b926b5bf24a299c5220ef3b3.js",
+    "precache-manifest.42e0067bfe5187ff1191051b0508aa4d.js": "/talks/precache-manifest.42e0067bfe5187ff1191051b0508aa4d.js",
     "service-worker.js": "/talks/service-worker.js",
     "static/css/main.747e9489.chunk.css.map": "/talks/static/css/main.747e9489.chunk.css.map",
     "static/media/email.png": "/talks/static/media/email.602af25f.png",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.ece4adfc.js",
     "static/js/2.0abb5e4b.chunk.js",
     "static/css/main.747e9489.chunk.css",
-    "static/js/main.8f3f8fbc.chunk.js"
+    "static/js/main.f92985c2.chunk.js"
   ]
 }
