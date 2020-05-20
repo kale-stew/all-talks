@@ -1,5 +1,16 @@
 const talks = [
   {
+    eventDate: '5/26/2020',
+    title: 'Demystifying urql With urql-devtools',
+    description:
+      'Using urql-devtools to better understand urql as a GraphQL client.',
+    eventName: 'GraphQL Denver',
+    eventType: 'meetup',
+    exportedSlidesUrl: '',
+    hostedSlidesUrl: '',
+    recordedPresentationUrl: ''
+  },
+  {
     eventDate: '6/28/2018',
     title: 'Machine Learning on the Command Line',
     description:
@@ -47,7 +58,8 @@ const talks = [
   {
     eventDate: '9/20/2019',
     title: 'Evolution of an API: A Case for GraphQL',
-    description: 'A discussion of API development over the years, and how GraphQL has evolved to address the problems that have arisen in that time.',
+    description:
+      'A discussion of API development over the years, and how GraphQL has evolved to address the problems that have arisen in that time.',
     eventName: 'UtahJS',
     eventType: 'conference',
     exportedSlidesUrl:
@@ -58,7 +70,8 @@ const talks = [
   {
     eventDate: '4/16/2019',
     title: 'TypeScript in React: A Love Story',
-    description: 'An overview of practices my team found beneficial while integrating TypeScript into a React monorepo.',
+    description:
+      'An overview of practices my team found beneficial while integrating TypeScript into a React monorepo.',
     eventName: 'React Denver',
     eventType: 'meetup',
     exportedSlidesUrl:
@@ -69,7 +82,8 @@ const talks = [
   {
     eventDate: '4/28/2018',
     title: 'Using JavaScript to Teach Machines How to do Cool Things',
-    description: "A gentle introduction to machine learning - defining basic algorithms and discussing why we wouldn't usually use JS to implement them.",
+    description:
+      "A gentle introduction to machine learning - defining basic algorithms and discussing why we wouldn't usually use JS to implement them.",
     eventName: 'Zeit Day',
     eventType: 'conference',
     exportedSlidesUrl:

@@ -80,14 +80,16 @@ const Card = ({ talk }) => (
       <span>{talk.eventName} － </span>
       <span>{formatDate(talk.eventDate)}</span>
     </EventInfo>
-    <TalkLink
-      href={talk.hostedSlidesUrl}
-      title={`Link to live hosted slides for ${talk.title}`}
-    >
-      <span role="img" aria-label="Click to visit the slides">
-        💻 → Check out the slides
-      </span>
-    </TalkLink>
+    {talk.hostedSlidesUrl && (
+      <TalkLink
+        href={talk.hostedSlidesUrl}
+        title={`Link to live hosted slides for ${talk.title}`}
+      >
+        <span role="img" aria-label="Click to visit the slides">
+          💻 → Check out the slides
+        </span>
+      </TalkLink>
+    )}
     {talk.recordedPresentationUrl && (
       <TalkLink
         href={talk.recordedPresentationUrl}

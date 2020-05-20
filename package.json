@@ -1,6 +1,6 @@
 {
   "name": "kale-stew-talks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kale-stew/talks"
@@ -10,9 +10,8 @@
     "format": "prettier \"**/*.{js,json,ts,css,md}\" --write",
     "dev": "react-scripts start",
     "clean": "rm -rf build",
-    "build": "react-scripts build",
-    "predeploy": "yarn clean && yarn build",
-    "deploy": "gh-pages -d build"
+    "build": "yarn clean && react-scripts build",
+    "deploy": "yarn build && gh-pages -d build"
   },
   "license": "MIT",
   "dependencies": {
@@ -24,7 +23,8 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "spectacle": "^6.0.3"
   },
   "eslintConfig": {
     "extends": "react-app"
