@@ -3,15 +3,19 @@
 ## Conferences
 
 1. [Evolution of an API: A Case for GraphQL](./evolution-of-an-api/README.md)
-   _presented at **UtahJS** on September 20th, 2019_
+
+   Presented at **UtahJS**<br/>📆 September 20th<br/>📍 Salt Lake City, UT
 
 2. [React to React Native: How Hard Could It Be?](./react-to-react-native/README.md)
-   _presented at **RVA.js** on November 15th, 2019_
+
+   Presented at **RVA.js**<br/>📆 November 15th<br/>📍 Richmond, VA
 
 ## Meetups
 
-1. [React to React Native: How Hard Could It Be?](./react-to-react-native/README.md)
-   _**May 28th** - [DenverScript](https://www.meetup.com/DenverScript/events/cswxqqyzhblc/)_
+1. [TypeScript + React: A Love Story ❤️](./ts-in-react/README.md)
 
-2. [TypeScript + React: A Love Story ❤️](./ts-in-react/README.md)
-   _**April 16th** - [React Denver](https://www.meetup.com/ReactDenver/events/kgrmmqyzgbvb/)_
+   Presented at [React Denver](https://www.meetup.com/ReactDenver/events/kgrmmqyzgbvb/)<br/>📆 April 16th
+
+2. [React to React Native: How Hard Could It Be?](./react-to-react-native/README.md)
+
+   Presented at [DenverScript](https://www.meetup.com/DenverScript/events/cswxqqyzhblc/)<br/>📆 May 28th
