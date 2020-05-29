@@ -63,7 +63,7 @@ const talks = [
     eventName: 'UtahJS',
     eventType: 'conference',
     exportedSlidesUrl:
-      'https://github.com/kale-stew/talks/blob/master/evolution-of-an-api/final.pdf',
+      'https://github.com/kale-stew/talks/blob/master/content/2019/evolution-of-an-api/final.pdf',
     hostedSlidesUrl: '',
     recordedPresentationUrl: 'https://www.youtube.com/watch?v=RhQx579OTVc'
   },
