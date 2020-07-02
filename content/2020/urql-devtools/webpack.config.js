@@ -13,7 +13,7 @@ const babelLoader = {
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: './index.js',
   output: {
     path: path.resolve('dist'),
     filename: 'deck.js'
@@ -46,7 +46,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Getting to know urql-devtools',
-      template: './src/index.html'
+      template: './index.html'
     })
   ]
 };

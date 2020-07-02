@@ -52,7 +52,7 @@ const Presentation = () => (
     style={{ textAlign: 'center' }}
   >
     <Slide>
-      <Heading color="primary">Demystifying urql-devtools</Heading>
+      <Heading color="primary">Demystifying urql Using DevTools</Heading>
       <br />
       <br />
       <Image
@@ -71,9 +71,10 @@ const Presentation = () => (
       <br />
       <Image
         src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/female-technologist_1f469-200d-1f4bb.png"
-        height="275px"
+        height="125px"
         style={{
-          alignSelf: 'center'
+          alignSelf: 'center',
+          marginTop: '25px'
         }}
       />
     </Slide>
