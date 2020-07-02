@@ -1,6 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+/**
+ * @TODO
+ * - [ ] Beef up intro slide
+ * - [ ] Add an outro slide with links
+ * - [ ] Add introductory urql slides
+ * - [ ] Direct link to demo
+ * - [ ] Host these
+ */
+
 import mdContent from './slides.md';
 
 import {
