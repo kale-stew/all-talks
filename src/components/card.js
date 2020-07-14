@@ -15,7 +15,7 @@ const CardWrapper = styled('div')`
 `;
 
 const EventInfo = styled('div')`
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 `;
 
 const ImgWrapper = styled('div')``;
@@ -39,11 +39,9 @@ const TalkLink = styled('a')`
   color: #cb067a;
 `;
 
-// TODO - make these interchangeable
-// <Tag type={talk.eventType} />
-// background-color: type === 'meetup' ? #db0606 : #ddaa03;
-const MeetupTag = styled('span')`
-  background-color: #db0606;
+const Tag = styled('span')`
+  background-color: ${props =>
+    props.type === 'meetup' ? '#db0606' : '#ddaa03'};
   color: #fff;
   font-size: 10px;
   height: 12px;
@@ -52,15 +50,18 @@ const MeetupTag = styled('span')`
   margin-top: 0.6rem;
 `;
 
-const ConferenceTag = styled('span')`
-  background-color: #ddaa03;
-  color: #fff;
-  font-size: 10px;
-  height: 12px;
-  align-self: center;
-  padding: 0.2rem;
-  margin-top: 0.6rem;
-`;
+const EventDetail = ({ event }) => {
+  const { eventDate, eventName, eventType } = event;
+  return (
+    <React.Fragment>
+      <Tag type={eventType}>{eventType.toUpperCase()}</Tag>
+      <EventInfo>
+        <span>{eventName} － </span>
+        <span>{formatDate(eventDate)}</span>
+      </EventInfo>
+    </React.Fragment>
+  );
+};
 
 const Card = ({ talk }) => (
   <CardWrapper>
@@ -71,15 +72,13 @@ const Card = ({ talk }) => (
         <img src={talk.previewImg} alt={`${talk.title} slide preview`} />
       </ImgWrapper>
     )}
-    {talk.eventType === 'meetup' ? (
-      <MeetupTag>MEETUP</MeetupTag>
+
+    {talk.event.length > 1 ? (
+      talk.event.map(e => <EventDetail event={e} key={e.eventDate} />)
     ) : (
-      <ConferenceTag>CONFERENCE</ConferenceTag>
+      <EventDetail event={talk.event[0]} />
     )}
-    <EventInfo>
-      <span>{talk.eventName} － </span>
-      <span>{formatDate(talk.eventDate)}</span>
-    </EventInfo>
+
     {talk.hostedSlidesUrl && (
       <TalkLink
         href={talk.hostedSlidesUrl}
@@ -90,6 +89,7 @@ const Card = ({ talk }) => (
         </span>
       </TalkLink>
     )}
+
     {talk.recordedPresentationUrl && (
       <TalkLink
         href={talk.recordedPresentationUrl}
@@ -107,9 +107,13 @@ Card.propTypes = {
   talk: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    eventDate: PropTypes.string.isRequired,
-    eventName: PropTypes.string,
-    eventType: PropTypes.string,
+    event: PropTypes.arrayOf(
+      PropTypes.shape({
+        eventDate: PropTypes.string.isRequired,
+        eventName: PropTypes.string,
+        eventType: PropTypes.string
+      })
+    ).isRequired,
     exportedSlidesUrl: PropTypes.string.isRequired,
     hostedSlidesUrl: PropTypes.string.isRequired,
     previewImg: PropTypes.string,

@@ -66,12 +66,19 @@ const orderByDateDesc = talks => {
   );
 };
 
+// @TODO fix this filter to handle nested event types
 const fetchConferences = talks => {
-  return talks && talks.filter(talk => talk.eventType === 'conference');
+  return (
+    talks &&
+    talks.map(talk =>
+      talk.event.filter(event => event.eventType === 'conference')
+    )
+  );
 };
 
+// @TODO fix this filter to handle nested event types
 const fetchMeetups = talks => {
-  return talks && talks.filter(talk => talk.eventType === 'meetup');
+  return talks && talks.event.filter(event => event.eventType === 'meetup');
 };
 
 export const FILTERS = [
