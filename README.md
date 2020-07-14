@@ -43,11 +43,15 @@ Every new entry is added to [`talks.json`](./content/talks.json) in the followin
 
 ```json
 {
-  "eventDate": "",
   "title": "",
   "description": "",
-  "eventName": "",
-  "eventType": "[conference || meetup]",
+  "event": [
+    {
+      "eventDate": "",
+      "eventName": "",
+      "eventType": "[conference || meetup]"
+    }
+  ],
   "exportedSlidesUrl": "",
   "hostedSlidesUrl": "",
   "previewImg": "",
