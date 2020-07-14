@@ -7,15 +7,11 @@ import { formatDate } from '../filters';
 const CardWrapper = styled('div')`
   display: flex;
   flex-direction: column;
-  width: 260px;
+  width: 220px;
 
   @media (max-width: 1024px) {
     margin-bottom: 3rem;
   }
-`;
-
-const EventInfo = styled('div')`
-  padding: 0.5rem 0;
 `;
 
 const ImgWrapper = styled('div')``;
@@ -25,6 +21,7 @@ const TalkDescription = styled('span')`
   word-wrap: break-word;
   width: 345px;
   align-self: center;
+  margin-bottom: 0.5rem;
 `;
 
 const TalkTitle = styled('span')`
@@ -47,19 +44,24 @@ const Tag = styled('span')`
   height: 12px;
   align-self: center;
   padding: 0.2rem;
-  margin-top: 0.6rem;
+  margin: 0 0.5rem;
+`;
+
+const EventInfo = styled('div')`
+  padding: 0.25rem 0;
+  white-space: wrap;
+  margin: 0.25rem 0;
 `;
 
 const EventDetail = ({ event }) => {
   const { eventDate, eventName, eventType } = event;
   return (
-    <React.Fragment>
+    <EventInfo>
       <Tag type={eventType}>{eventType.toUpperCase()}</Tag>
-      <EventInfo>
-        <span>{eventName} － </span>
-        <span>{formatDate(eventDate)}</span>
-      </EventInfo>
-    </React.Fragment>
+      <span>
+        {eventName} －{formatDate(eventDate)}
+      </span>
+    </EventInfo>
   );
 };
 
