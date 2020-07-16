@@ -7,6 +7,15 @@
 
 ---
 
+## Why urql?
+
+- Customizable AF
+- Simple default cache
+- Very smol (~6.5kb min+gzip)
+- Exchanges!
+
+---
+
 # What are urql devtools?
 
 - An incredibly helpful [chrome extension](https://chrome.google.com/webstore/detail/urql-devtools/mcfphkbpmkbeofnkjehahlmidmceblmm?hl=en-US)!

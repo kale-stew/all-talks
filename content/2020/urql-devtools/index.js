@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import mdContent from './slides.md';
-import finalSlide from './final-slide.md';
+import mdContent from './slides/main.md';
+import finalSlide from './slides/final.md';
 
 import {
   Box,
@@ -53,7 +53,7 @@ const Presentation = () => (
     style={{ textAlign: 'center' }}
   >
     <Slide>
-      <Heading color="primary">Demystifying urql Using DevTools</Heading>
+      <Heading color="primary">Getting Familiar with urql's Devtools</Heading>
       <br />
       <br />
       <Image
