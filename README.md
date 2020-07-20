@@ -39,10 +39,14 @@ _Inspired by [Jason Lengstorf](https://lengstorf.com/)'s own [`presentations` re
 
 ## Development
 
-Every new entry is added to [`talks.json`](./content/talks.json) in the following format:
+<details>
+<summary>
+Every new entry is added to my source talks doc in the following format:
+</summary>
 
 ```json
 {
+  // https://github.com/kale-stew/kale-stew.github.io/blob/dev/src/data/talks.js
   "eventDate": "",
   "title": "",
   "description": "",
@@ -55,7 +59,12 @@ Every new entry is added to [`talks.json`](./content/talks.json) in the followin
 }
 ```
 
-And then, the year's README should be updated accordingly:
+</details>
+
+<details>
+<summary>
+And then, every new talk is added to the given year's README:
+</summary>
 
 ```md
 <!-- Conferences -->
@@ -70,6 +79,8 @@ And then, the year's README should be updated accordingly:
 
    Presented at [MeetupName](https://www.meetup.com/MeetupName/events/randomhashfrommeetupdotcom)<br/>📆 Month 00th
 ```
+
+</details>
 
 ## Deployment
 
