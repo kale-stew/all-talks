@@ -4,7 +4,7 @@
     "description": "",
     "presentedAt": [
       {
-        "eventDate": "5-26-20",
+        "eventDate": "2020-05-26",
         "eventName": "GraphQL Denver",
         "eventType": "meetup",
         "eventUrl": "",
@@ -12,7 +12,7 @@
         "location": "virtual"
       },
       {
-        "eventDate": "7-16-20",
+        "eventDate": "2020-07-16",
         "eventName": "RESTLess London",
         "eventType": "meetup",
         "eventUrl": "",
@@ -29,7 +29,7 @@
     "description": "",
     "presentedAt": [
       {
-        "eventDate": "9-20-19",
+        "eventDate": "2019-09-20",
         "eventName": "UtahJS",
         "eventType": "conference",
         "eventUrl": "https://conf.utahjs.com/",
@@ -46,7 +46,7 @@
     "description": "",
     "presentedAt": [
       {
-        "eventDate": "4-16-19",
+        "eventDate": "2019-04-16",
         "eventName": "React Denver",
         "eventType": "meetup",
         "eventUrl": "https://www.meetup.com/ReactDenver/events/kgrmmqyzgbvb/",
@@ -63,7 +63,7 @@
     "description": "",
     "presentedAt": [
       {
-        "eventDate": "11-15-19",
+        "eventDate": "2019-11-15",
         "eventName": "RVA.js",
         "eventType": "conference",
         "eventUrl": "",
@@ -71,7 +71,7 @@
         "location": "Richmond, VA"
       },
       {
-        "eventDate": "5-28-19",
+        "eventDate": "2019-05-28",
         "eventName": "DenverScript",
         "eventType": "meetup",
         "eventUrl": "",
@@ -88,7 +88,7 @@
     "description": "Maching learning on the command line.",
     "presentedAt": [
       {
-        "eventDate": "6-28-18",
+        "eventDate": "2018-06-28",
         "eventName": "js.la",
         "eventType": "meetup",
         "eventUrl": "https://js.la",
@@ -105,7 +105,7 @@
     "description": "",
     "presentedAt": [
       {
-        "eventDate": "10-25-18",
+        "eventDate": "2018-10-25",
         "eventName": "Formidable Denver Open House",
         "eventType": "meetup",
         "eventUrl": "https://formidable-denver.eventbrite.com",
@@ -122,7 +122,7 @@
     "description": "",
     "presentedAt": [
       {
-        "eventDate": "4-28-18",
+        "eventDate": "2018-04-28",
         "eventName": "Zeit Day",
         "eventType": "conference",
         "eventUrl": "https://zeit.co/day",
