@@ -41,22 +41,30 @@ _Inspired by [Jason Lengstorf](https://lengstorf.com/)'s own [`presentations` re
 
 <details>
 <summary>
-Every new entry is added to my source talks doc in the following format:
+Every new entry is added to my [source talks doc](https://raw.githubusercontent.com/kale-stew/all-talks/main/content/talks.js) in the following format:
 </summary>
 
-```json
-{
-  // https://github.com/kale-stew/kale-stew.github.io/blob/dev/src/data/talks.js
-  "eventDate": "",
-  "title": "",
-  "description": "",
-  "eventName": "",
-  "eventType": "[conference || meetup]",
-  "exportedSlidesUrl": "",
-  "hostedSlidesUrl": "",
-  "previewImg": "",
-  "recordedPresentationUrl": ""
-}
+```js
+export const AllTalks = [
+  {
+    // https://github.com/kale-stew/all-talks/blob/main/content/talks.js
+    title: '',
+    description: '',
+    presentedAt: [
+      {
+        eventDate: '',
+        eventName: '',
+        eventType: '[conference | meetup}',
+        eventUrl: '',
+        recordedPresentationUrl: '',
+        location: 'city, state' | null,
+      },
+    ],
+    exportedSlidesUrl: '',
+    hostedSlidesUrl: '',
+    previewImg: '',
+  },
+]
 ```
 
 </details>
