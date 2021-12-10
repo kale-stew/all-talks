@@ -12,7 +12,7 @@ class App extends React.Component {
       </div>
     );
   }
-}`;
+}`
 
 export const TodoAfterNative = `
 import React from 'react';
@@ -31,7 +31,7 @@ class App extends React.Component {
       </View>
     )
   }
-}`;
+}`
 
 export const AppCSS = `
 // App.css
@@ -63,7 +63,7 @@ export const AppCSS = `
   justify-content: center;
   border: 2px solid silver;
   padding: 30px;
-}`;
+}`
 
 export const AppJSSnippet = `
 // snippet from App.js
@@ -77,7 +77,7 @@ return (
       Here's a bunch of text.
     </p>
   </div>
-);`;
+);`
 
 export const Native = `
 const App = () => {
@@ -120,7 +120,7 @@ const styles = {
     padding: 17
   }
 }
-`;
+`
 
 export const StackNavigator = `
 const SimpleApp = StackNavigator({
@@ -135,7 +135,7 @@ class App extends React.Component {
 };
 
 export default App;
-`;
+`
 
 export const TabNavigator = `
 const SimpleApp = TabNavigator({
@@ -150,7 +150,7 @@ const SimpleApp = TabNavigator({
 });
 
 export default SimpleApp;
-`;
+`
 
 export const EnvBefore = `
 require('dotenv').config();
@@ -161,7 +161,7 @@ db.connect({
   username: process.env.DB_USER,
   password: process.env.DB_PASS
 });
-`;
+`
 
 export const EnvAfter = `
 import Config from 'react-native-config';
@@ -172,4 +172,4 @@ db.connect({
   username: Config.DB_USER,
   password: Config.DB_PASS
 });
-`;
+`

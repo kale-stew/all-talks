@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './fonts.css';
+import React, { Component } from 'react'
+import './fonts.css'
 
 // spectacle-core tags
 import {
@@ -16,11 +16,11 @@ import {
   Notes,
   Quote,
   Slide,
-  Text
-} from 'spectacle';
+  Text,
+} from 'spectacle'
 
 // theme
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 const theme = createTheme(
   {
     aqua: '#009DDC',
@@ -29,13 +29,13 @@ const theme = createTheme(
     medRed: '#A30015',
     orange: '#F26430',
     primary: '#EFEFEF',
-    white: '#fff'
+    white: '#fff',
   },
   {
     primary: 'PT Mono',
-    secondary: 'Helvetica'
+    secondary: 'Helvetica',
   }
-);
+)
 
 // image assets
 const images = {
@@ -56,8 +56,8 @@ const images = {
   Tiny: require('./assets/tiny.gif'),
   Title: require('./assets/title.png'),
   Tradeoff: require('./assets/tradeoff.png'),
-  Unsupervised: require('./assets/big-data.jpg')
-};
+  Unsupervised: require('./assets/big-data.jpg'),
+}
 
 export default class Presentation extends Component {
   render() {
@@ -520,6 +520,6 @@ export default class Presentation extends Component {
           </Heading>
         </Slide>
       </Deck>
-    );
+    )
   }
 }

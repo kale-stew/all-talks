@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import mdContent from './slides/main.md';
-import finalSlide from './slides/final.md';
+import mdContent from './slides/main.md'
+import finalSlide from './slides/final.md'
 
 import {
   Box,
@@ -13,21 +13,21 @@ import {
   Image,
   Markdown,
   Progress,
-  Slide
-} from 'spectacle';
+  Slide,
+} from 'spectacle'
 
 const theme = {
   fonts: {
     header: 'Fira Sans, sans-serif',
-    text: 'Fira Sans, sans-serif'
+    text: 'Fira Sans, sans-serif',
   },
   colors: {
     primary: '#fff',
     secondary: '#8096ff',
     tertiary: '#343434',
-    quartenary: '#fff'
-  }
-};
+    quartenary: '#fff',
+  },
+}
 
 const template = props => (
   <FlexBox
@@ -43,7 +43,7 @@ const template = props => (
       <Progress />
     </Box>
   </FlexBox>
-);
+)
 
 const Presentation = () => (
   <Deck
@@ -60,7 +60,7 @@ const Presentation = () => (
         src="https://raw.githubusercontent.com/FormidableLabs/formidable-oss-badges/master/src/assets/featuredLogos/urql.svg"
         width="350px"
         style={{
-          alignSelf: 'center'
+          alignSelf: 'center',
         }}
       />
     </Slide>
@@ -75,12 +75,12 @@ const Presentation = () => (
         height="125px"
         style={{
           alignSelf: 'center',
-          marginTop: '25px'
+          marginTop: '25px',
         }}
       />
     </Slide>
     <Markdown containsSlides>{finalSlide}</Markdown>
   </Deck>
-);
+)
 
-ReactDOM.render(<Presentation />, document.getElementById('root'));
+ReactDOM.render(<Presentation />, document.getElementById('root'))

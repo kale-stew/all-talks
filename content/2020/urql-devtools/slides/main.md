@@ -41,11 +41,11 @@ yarn add @urql/devtools
 & then add the exchange to your urql client:
 
 ```js
-import { createClient, defaultExchanges } from 'urql';
-import { devtoolsExchange } from '@urql/devtools';
+import { createClient, defaultExchanges } from 'urql'
+import { devtoolsExchange } from '@urql/devtools'
 
 const client = createClient({
   url: 'http://localhost:3001/graphql',
-  exchanges: [devtoolsExchange, ...defaultExchanges]
-});
+  exchanges: [devtoolsExchange, ...defaultExchanges],
+})
 ```

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './fonts.css';
+import React, { Component } from 'react'
+import './fonts.css'
 
 // spectacle-core tags
 import {
@@ -15,11 +15,11 @@ import {
   ListItem,
   Notes,
   Slide,
-  Text
-} from 'spectacle';
+  Text,
+} from 'spectacle'
 
 // theme
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 const theme = createTheme(
   {
     black: '#272727',
@@ -29,14 +29,14 @@ const theme = createTheme(
     periwinkle: '#7692FF',
     primary: '#EFEFEF',
     teal: '#ABD2FA',
-    white: '#fff'
+    white: '#fff',
   },
   {
     primary: 'Fira Sans',
     secondary: 'Montserrat',
-    tertiary: 'Space Mono'
+    tertiary: 'Space Mono',
   }
-);
+)
 
 // image assets
 const images = {
@@ -47,8 +47,8 @@ const images = {
   ItsHappening: require('./assets/its-happening.gif'),
   OtherGirl: require('./assets/the-other-girl.jpg'),
   TSWithReact: require('./assets/react-with-ts.png'),
-  VSCode: require('./assets/vs-code.png')
-};
+  VSCode: require('./assets/vs-code.png'),
+}
 
 // code samples
 const userDataInterface = `
@@ -59,13 +59,13 @@ interface IWithUserDataProps {
   lastName: string;
   nickname?: string;
 }
-`;
+`
 
 const extendedUserDataInterface = `
 interface IGreetingProps extends IWithUserDataProps {
   message: string;
 }
-`;
+`
 
 const typescriptButton = `
 interface IButtonProps {
@@ -88,7 +88,7 @@ class Button = React.Component<IButtonProps> => {
 };
 
 export default Button;
-`;
+`
 
 const javaScriptButton = `
 class Button extends Component {
@@ -105,7 +105,7 @@ Button.defaultProps = {
 };
 
 export default Button;
-`;
+`
 
 const javaScriptButtonWithPropTypes = `
 class Button extends Component {
@@ -129,7 +129,7 @@ Button.PropTypes = {
 };
 
 export default Button;
-`;
+`
 
 export default class Presentation extends Component {
   render() {
@@ -145,7 +145,7 @@ export default class Presentation extends Component {
           <div
             style={{
               display: 'flex',
-              alignItems: 'center'
+              alignItems: 'center',
             }}
           >
             <Image src={images.FormidaTeal} width="250px" />
@@ -540,6 +540,6 @@ export default class Presentation extends Component {
           </Code>
         </Slide>
       </Deck>
-    );
+    )
   }
 }

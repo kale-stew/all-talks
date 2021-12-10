@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 import {
   Appear,
@@ -12,10 +12,10 @@ import {
   ListItem,
   Notes,
   Slide,
-  Text
-} from 'spectacle';
+  Text,
+} from 'spectacle'
 
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 const theme = createTheme(
   {
     black: '#130119',
@@ -23,13 +23,13 @@ const theme = createTheme(
     pink: '#E10098',
     purple: '#7700E1',
     storm: '#111111',
-    white: '#EFEFEF'
+    white: '#EFEFEF',
   },
   {
     primary: 'Lato',
-    secondary: 'Source Sans Pro'
+    secondary: 'Source Sans Pro',
   }
-);
+)
 
 const images = {
   Amazon: require('./assets/amazon.png'),
@@ -45,8 +45,8 @@ const images = {
   Shopping: require('./assets/transaction.jpg'),
   Spiderman: require('./assets/types.jpeg'),
   Twitter: require('./assets/twitter.png'),
-  eBay: require('./assets/ebay.png')
-};
+  eBay: require('./assets/ebay.png'),
+}
 
 export default class Presentation extends Component {
   render() {
@@ -265,7 +265,7 @@ export default class Presentation extends Component {
             <div
               style={{
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               <Image src={images.Twitter} height="150px" />
@@ -537,6 +537,6 @@ export default class Presentation extends Component {
           <Image src={images.FormidaLogo} height="80px" />
         </Slide>
       </Deck>
-    );
+    )
   }
 }

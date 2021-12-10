@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 // spectacle-core tags
 import {
@@ -14,11 +14,11 @@ import {
   ListItem,
   Notes,
   Slide,
-  Text
-} from 'spectacle';
+  Text,
+} from 'spectacle'
 
 // theme
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 const theme = createTheme(
   {
     aqua: '#007ACC',
@@ -29,13 +29,13 @@ const theme = createTheme(
     offwhite: '#EFEFEF',
     orange: '#EF642B',
     primary: '#EFEFEF',
-    yellow: '#F7E842'
+    yellow: '#F7E842',
   },
   {
     primary: 'Lato',
-    secondary: 'Helvetica'
+    secondary: 'Helvetica',
   }
-);
+)
 
 // image assets
 const images = {
@@ -48,8 +48,8 @@ const images = {
   Supervised: require('./assets/supervised.png'),
   Tensorflow: require('./assets/tensorflow.png'),
   TypeScript: require('./assets/ts.png'),
-  Unsupervised: require('./assets/big_data.jpg')
-};
+  Unsupervised: require('./assets/big_data.jpg'),
+}
 
 const typescriptButton = `
 interface IButtonProps {
@@ -72,7 +72,7 @@ class Button = React.Component<IButtonProps> => {
 };
 
 export default Button;
-`;
+`
 
 const javaScriptButton = `
 class Button extends Component {
@@ -89,7 +89,7 @@ Button.defaultProps = {
 };
 
 export default Button;
-`;
+`
 
 const javaScriptCode = `
 let getAnswer = (review, message) => {
@@ -102,7 +102,7 @@ let getAnswer = (review, message) => {
       return 'Yes yes yes!';
   };
 }
-`;
+`
 
 const reasonMLCode = `
 type review =
@@ -116,7 +116,7 @@ let getAnswer = review =>
   | Neutral => "Okay"
   | Awesome => "Yes yes yes!"
   };
-`;
+`
 
 export default class Presentation extends Component {
   render() {
@@ -453,6 +453,6 @@ export default class Presentation extends Component {
           </Code>
         </Slide>
       </Deck>
-    );
+    )
   }
 }

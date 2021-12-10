@@ -6,13 +6,13 @@ interface IWithUserDataProps {
   lastName: string;
   nickname?: string;
 }
-`;
+`
 
 export const extendedUserDataInterface = `
 interface IGreetingProps extends IWithUserDataProps {
   message: string;
 }
-`;
+`
 
 export const typescriptButton = `
 interface IButtonProps {
@@ -35,7 +35,7 @@ class Button = React.Component<IButtonProps> => {
 };
 
 export default Button;
-`;
+`
 
 export const buttonWithUnion = `
 interface IButtonProps {
@@ -44,7 +44,7 @@ interface IButtonProps {
   size?: string;
   message?: string | string[];
 }
-`;
+`
 
 export const buttonWithEnum = `
 enum ButtonSize = {
@@ -58,7 +58,7 @@ interface IButtonProps {
   disabled?: boolean;
   size?: ButtonSize;
 }
-`;
+`
 
 export const javaScriptButton = `
 class Button extends Component {
@@ -75,7 +75,7 @@ Button.defaultProps = {
 };
 
 export default Button;
-`;
+`
 
 export const javaScriptButtonWithPropTypes = `
 class Button extends Component {
@@ -99,7 +99,7 @@ Button.PropTypes = {
 };
 
 export default Button;
-`;
+`
 
 export const objectLiteralCheck = `
 function logMessage(anything: { message: string }) {
@@ -113,7 +113,7 @@ const third = { note: "No message here" };
 logMessage(first);       // 👍🏼
 logMessage(second);     // 👍🏼
 logMessage(third);      // 🔴 Error: property 'message' is missing
-`;
+`
 
 export const allowAnyIndex = `let someObj: {
   mustBeString: string;
@@ -122,4 +122,4 @@ export const allowAnyIndex = `let someObj: {
 
 myObject = { mustBeString: 'hello', whatever: true };     // 👍🏼
 myObject = { mustBeString: 1, extra: 'a string' };        // 🔴 Error: property 'mustBeString' must be type string
-`;
+`

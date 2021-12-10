@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 // spectacle-core tags
 import {
@@ -15,11 +15,11 @@ import {
   Notes,
   Quote,
   Slide,
-  Text
-} from 'spectacle';
+  Text,
+} from 'spectacle'
 
 // theme
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 const theme = createTheme(
   {
     aqua: '#3A9BB9',
@@ -28,13 +28,13 @@ const theme = createTheme(
     medRed: '#CC2936',
     navy: '#08415C',
     offwhite: '#EFEFEF',
-    primary: '#EFEFEF'
+    primary: '#EFEFEF',
   },
   {
     primary: 'Montserrat',
-    secondary: 'Helvetica'
+    secondary: 'Helvetica',
   }
-);
+)
 
 // image assets
 const images = {
@@ -54,13 +54,13 @@ const images = {
   TLDR: require('./assets/tldr_types.png'),
   Throwback: require('./assets/deep-blue.jpg'),
   Tradeoff: require('./assets/tradeoff.png'),
-  Unsupervised: require('./assets/big_data.jpg')
-};
+  Unsupervised: require('./assets/big_data.jpg'),
+}
 
 // code assets
 const codeSamples = {
-  OGBotCode: require('./assets/code/dumb_bot.png')
-};
+  OGBotCode: require('./assets/code/dumb_bot.png'),
+}
 
 export default class Presentation extends Component {
   render() {
@@ -476,6 +476,6 @@ export default class Presentation extends Component {
           <Heading size={5}>@kale-stew on Github</Heading>
         </Slide>
       </Deck>
-    );
+    )
   }
 }

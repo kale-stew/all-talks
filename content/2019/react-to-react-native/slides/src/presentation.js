@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './fonts.css';
+import React, { Component } from 'react'
+import './fonts.css'
 
-import * as CodeSamples from './code-samples';
+import * as CodeSamples from './code-samples'
 
 // spectacle-core tags
 import {
@@ -15,11 +15,11 @@ import {
   Layout,
   Notes,
   Slide,
-  Text
-} from 'spectacle';
+  Text,
+} from 'spectacle'
 
 // theme
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 const theme = createTheme(
   {
     black: '#272727',
@@ -29,14 +29,14 @@ const theme = createTheme(
     green: '#26C145',
     orange: '#F04D20',
     primary: '#EFEFEF',
-    white: '#fff'
+    white: '#fff',
   },
   {
     primary: 'Fira Sans',
     secondary: 'Montserrat',
-    tertiary: 'Space Mono'
+    tertiary: 'Space Mono',
   }
-);
+)
 
 // image assets
 /* eslint-disable no-undef */
@@ -49,8 +49,8 @@ const images = {
   Roadmap: require('./assets/roadmap.png'),
   SimpleTodo: require('./assets/todo.gif'),
   StackNav: require('./assets/stack-navigator.gif'),
-  TabNav: require('./assets/tab-navigator.gif')
-};
+  TabNav: require('./assets/tab-navigator.gif'),
+}
 /* eslint-enable no-undef */
 
 export default class Presentation extends Component {
@@ -314,6 +314,6 @@ export default class Presentation extends Component {
           </Code>
         </Slide>
       </Deck>
-    );
+    )
   }
 }
