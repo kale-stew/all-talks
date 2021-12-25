@@ -1,7 +1,7 @@
 [
   {
     "title": "Demistifying urql using urql-devtools",
-    "description": "",
+    "description": "Taking a closer look at the urql browser DevTools and using them to better understand urql as a GraphQL client.",
     "presentedAt": [
       {
         "eventDate": "2020-05-26",
@@ -26,7 +26,7 @@
   },
   {
     "title": "Evolution of an API: A Case for GraphQL",
-    "description": "",
+    "description": "Looking at the history of best practices for API development and the timeline that got us to where we are today.",
     "presentedAt": [
       {
         "eventDate": "2019-09-20",
@@ -43,7 +43,7 @@
   },
   {
     "title": "TypeScript + React: A Love Story",
-    "description": "",
+    "description": "Why React is made even better with TypeScript, and some of the available tooling that can make team collaboration easier across a larger codebase.",
     "presentedAt": [
       {
         "eventDate": "2019-04-16",
@@ -60,7 +60,7 @@
   },
   {
     "title": "React to React Native: How Hard Could It Be?",
-    "description": "",
+    "description": "'If I already know React, how hard could it be to learn React Native?' is a question I've heard a lot as a React consultant. This talk aims to not only answer this question, but also identify whether you need a native app at all.",
     "presentedAt": [
       {
         "eventDate": "2019-11-15",
@@ -85,7 +85,7 @@
   },
   {
     "title": "ML on the CL",
-    "description": "Maching learning on the command line.",
+    "description": "Implementing machine learning on the command line using Node.js libraries. This talk highlights a few quick-start projects you can get started with on your own.",
     "presentedAt": [
       {
         "eventDate": "2018-06-28",
@@ -102,7 +102,7 @@
   },
   {
     "title": "How TypeScript Made Me a Better JavaScript Developer",
-    "description": "",
+    "description": "Taking a closer look at best practices for developing in TypeScript and then applying those practices to JavaScript.",
     "presentedAt": [
       {
         "eventDate": "2018-10-25",
@@ -119,7 +119,7 @@
   },
   {
     "title": "Teaching Machines How to Do Cool Things with JavaScript",
-    "description": "",
+    "description": "Taking a closer look at modern applications of machine learning, and then discussing the how and why of JavaScript implementation of that technology.",
     "presentedAt": [
       {
         "eventDate": "2018-04-28",
