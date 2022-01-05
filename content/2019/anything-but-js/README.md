@@ -1,6 +1,7 @@
-# Anything But JavaScript
-
-These are the slides and demos from my talk at [Galvanize Platte](https://www.galvanize.com/campuses/denver-platte) about trying out languages beyond plain 'ol JavaScript.
+---
+title: 'Anything But JavaScript'
+category: ''
+---
 
 In this talk, I cover the basics of getting started with TypeScript, ReasonML, and machine learning.
 
@@ -22,4 +23,4 @@ Click straight through to my page of links per topic:
 
 ## Acknowledgements
 
-Thank you for having me, [Galvanize](https://www.galvanize.com/events)!
+This was presented to a co-hort at [Galvanize Platte](https://www.galvanize.com/campuses/denver-platte). Thank you for having me, [Galvanize](https://www.galvanize.com/events)!

@@ -1,6 +1,7 @@
-# ML on the CL
-
-These are the slides and demos from my talk on June 28th, 2018, at [js.la](https://js.la).
+---
+title: 'ML on the CL'
+category: 'machine learning, javascript'
+---
 
 > Machine learning is everywhere, but how easy is it to get started? Could your small project benefit from some simple ML? In this talk, we will cover the very basics of artificial intelligence, as well as learn a Python-free approach to big data, basic algorithms, and how easy all of this is to implement in your average shopping cart with a single Node.js file.
 
@@ -20,17 +21,6 @@ You could check out this [PDF of my slides](https://github.com/kale-stew/ml-on-t
 
 Or maybe even the [live view](https://kale-stew.github.io/ml-on-the-cl).
 
-## Deploy
-
-Turn 'pages' on by going to > Settings > GitHub Pages
-
-```sh
-npm run build
-npm run deploy
-```
-
-Go back to > Settings > GitHub Pages > change 'Source' to `gh-pages`
-
 ## Further Reading
 
 - [Machine Learning for Web Developers](https://www.robinwieruch.de/machine-learning-javascript-web-developers/) - Robin Wieruch
@@ -39,4 +29,4 @@ Go back to > Settings > GitHub Pages > change 'Source' to `gh-pages`
 
 ## Acknowledgements
 
-Thank you for having me, [js.la](https://js.la)!
+This was presented at at the js.la meetup on June 28th, 2018. Thank you for having me, [js.la](https://js.la)!

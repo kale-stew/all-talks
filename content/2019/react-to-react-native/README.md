@@ -1,8 +1,9 @@
-# React to React Native: How Hard Could It Be?
+---
+title: 'React to React Native: How Hard Could It Be?'
+category: 'react, react native'
+---
 
-These are the slides from my talk at [RVA.js](TODO_rvajs_url) on November 15th, 2019.
-
-In this talk, I cover the basics of React, how the browser framework differs from React Native, and TODO_more_description.
+In this talk, I cover the basics of React, how the browser framework differs from React Native, and more.
 
 ## Just Looking for Slides?
 
@@ -14,8 +15,8 @@ Or maybe even the [live view](TODO_rvajs_slides_url).
 
 Some good places to get started with React Native:
 
-- https://facebook.github.io/react-native/docs/tutorial
+- [https://facebook.github.io/react-native/docs/tutorial](https://reactnative.dev/docs/tutorial)
 
 ## Acknowledgements
 
-Thank you for letting me speak, [RVA.js](TODO_rvajs_url)!
+This was presented at [DenverScript](https://www.meetup.com/DenverScript/)'s [May 2019 meetup](<(https://www.code-talent.com/event-calendar/2019/5/28/denver-script)>) and the 2019 [RVA.js](http://rvajs.com) conference. Thank you both for having me!

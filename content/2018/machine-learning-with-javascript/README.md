@@ -1,12 +1,11 @@
-# Using JavaScript to Teach Machines How to Do Cool Shit
+---
+title: 'Using JavaScript to Teach Machines How to Do Cool Shit'
+category: 'machine learning'
+---
 
 What's the difference between machine learning and artificial intelligence? Can we use JavaScript to teach machines? How easy is it to teach these machines to do cool shit?
 
 In this talk, I cover the fundamentals of AI, introduce some basic definitions, and demonstrate those concepts using JavaScript.
-
-From my talk at [Zeit Day](https://zeit.co/day) on April 28th, 2018.
-
-<!-- I've linked to the projects [below](#those-projects-i-was-talking-about). -->
 
 ## Just Looking for Slides?
 
@@ -28,11 +27,11 @@ Or even the [talk itself](https://www.youtube.com/watch?v=QaV7a64mUYE).
 
 ### Some Cool ML Projects
 
-- http://caza.la/synaptic/#/
-- https://github.com/tensorflow/playground
-- https://github.com/BrainJS/brain.js
-- https://lines.chromeexperiments.com/
+- [http://caza.la/synaptic/#/](http://caza.la/synaptic/#/)
+- [https://github.com/tensorflow/playground](https://github.com/tensorflow/playground)
+- [https://github.com/BrainJS/brain.js](https://github.com/BrainJS/brain.js)
+- [https://lines.chromeexperiments.com/](https://lines.chromeexperiments.com)
 
 ## Acknowledgements
 
-Shoutout to [Zeit](https://github.com/zeit), [React](https://github.com/facebookincubator/create-react-app) and [Formidable Labs](https://github.com/formidablelabs).
+This was presented at [Zeit Day](https://zeit.co/day) on April 28th, 2018. Thank you for having me, [Zeit](https://github.com/zeit)!

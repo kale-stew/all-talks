@@ -1,4 +1,7 @@
-# Demystifying `urql` using The Devtools!
+---
+title: 'Demystifying `urql` using The Devtools!'
+category: 'graphql'
+---
 
 In this talk, we go over a high-level overview of [`urql`](https://www.github.com/formidablelabs/urql)'s features and then dive into ways to explore those features using the [Chrome `urql-devtools` extension](https://chrome.google.com/webstore/detail/urql-devtools/mcfphkbpmkbeofnkjehahlmidmceblmm?hl=en-US).
 
@@ -18,3 +21,7 @@ In this talk, we go over a high-level overview of [`urql`](https://www.github.co
 
 - ["Getting started with URQL, A Universal React Query Library" by Sumit Sharma](https://ednsquare.com/story/getting-started-with-urql-a-universal-react-query-library------cImqeQ)
 - ["Exploring urql from an Apollo perspective" by Peter Nycander](https://blog.logrocket.com/exploring-urql-from-an-apollo-perspective/)
+
+## Acknowledgements
+
+This was presented virtually at the [RESTLess London](https://restlessldn.dev) and [GraphQL Denver](https://www.meetup.com/GraphQLDenver/) meetups. Thank you both for having me!
