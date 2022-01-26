@@ -3,9 +3,7 @@ title: 'ML on the CL'
 category: 'machine learning, javascript'
 ---
 
-> Machine learning is everywhere, but how easy is it to get started? Could your small project benefit from some simple ML? In this talk, we will cover the very basics of artificial intelligence, as well as learn a Python-free approach to big data, basic algorithms, and how easy all of this is to implement in your average shopping cart with a single Node.js file.
-
-In this talk, I cover the fundamentals of AI, introduce some basic definitions, and implement them using open sourced JavaScript libraries and `Node.js`.
+Machine learning is everywhere, but how easy is it to get started? Could your small project benefit from some simple ML? In this talk, we will cover the very basics of artificial intelligence, as well as learn a Python-free approach to big data, basic algorithms, and how easy all of this is to implement in your average shopping cart with a single Node.js file.
 
 ## Projects
 

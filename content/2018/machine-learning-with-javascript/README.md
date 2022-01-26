@@ -5,7 +5,21 @@ category: 'machine learning'
 
 What's the difference between machine learning and artificial intelligence? Can we use JavaScript to teach machines? How easy is it to teach these machines to do cool shit?
 
-In this talk, I cover the fundamentals of AI, introduce some basic definitions, and demonstrate those concepts using JavaScript.
+In this talk, I cover:
+
+- The definition of machine learning and how the concept differs from artificial intelligence
+  - "Machine learning paves the path to artificial intelligence"
+- Supervised vs unsupervised learning
+- Some basic machine learning types:
+  - Liner Regression
+  - Classification
+  - Clustering
+- Discrete vs continuous data, and what it tells us about the learning types
+- A demo of how to improve a "dumb" Twitter bot using only a standard input (tweets)
+- Bias-Variance Tradeoff
+- The definition of a neural network and a couple of its types: artificial vs convolutional
+- Why use JavaScript to implement these concepts?
+  - What are the limitations to using JS (compared to using something more suited to handle large data sets)?
 
 ## Just Looking for Slides?
 

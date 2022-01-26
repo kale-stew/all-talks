@@ -3,7 +3,22 @@ title: 'TypeScript in React: A Love Story'
 category: 'typescript, react'
 ---
 
-In this talk, I cover some TypeScript basics, as well as my experience using it in a production React application.
+This talk heavily leans on my experience using TypeScript in a production React application, and how much I benefitted as a developer using this combination of language and framework.
+
+We cover:
+
+- Statically typed vs dynamically typed languages
+- Differences between TypeScript and JavaScript syntax in a simple React.js component
+- TypeScript concepts: Interfaces, Unions, and Enums, `any`
+- What I consider to be the pros of working in this type of codebase:
+  - More portable code
+  - Better documentation
+  - Easy refactoring
+  - Increased dev productivity
+- How props differ from interfaces in composing better component APIs
+- Libraries teams can use to improve the dev experience, like Storybook
+
+![typescript is clippy](https://raw.githubusercontent.com/kale-stew/all-talks/main/content/2019/ts-in-react/slides/src/assets/clippy-tweet.jpg)
 
 ## Just Looking for Slides?
 

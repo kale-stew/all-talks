@@ -3,7 +3,7 @@ title: 'Demystifying `urql` using The Devtools!'
 category: 'graphql'
 ---
 
-In this talk, we go over a high-level overview of [`urql`](https://www.github.com/formidablelabs/urql)'s features and then dive into ways to explore those features using the [Chrome `urql-devtools` extension](https://chrome.google.com/webstore/detail/urql-devtools/mcfphkbpmkbeofnkjehahlmidmceblmm?hl=en-US).
+In this talk, I cover a high-level overview of urql (a.k.a. Universal React Query Language)'s features before diving into ways to explore those features using the Chrome urql-specific DevTools extension.
 
 ## Further Reading
 
@@ -16,6 +16,8 @@ In this talk, we go over a high-level overview of [`urql`](https://www.github.co
 - The [`urql` docs](https://formidable.com/open-source/urql/docs) are also a great place to get to know the basics of the library. An FAQ, API reference, and overview of basic concept are all available here.
 
 - The [`urql` community on Spectrum](https://spectrum.chat/urql?tab=posts) is another great place to talk to other urql users and the maintainers themselves.
+
+- The [Chrome `urql-devtools` extension](https://chrome.google.com/webstore/detail/urql-devtools/mcfphkbpmkbeofnkjehahlmidmceblmm?hl=en-US)
 
 ### Community Blog Posts
 

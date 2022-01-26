@@ -3,13 +3,16 @@ title: 'React to React Native: How Hard Could It Be?'
 category: 'react, react native'
 ---
 
-In this talk, I cover the basics of React, how the browser framework differs from React Native, and more.
+In this talk I cover the basics of React, how the browser framework differs from the "native" framework (react-native), and whether or not your application needs to be native (spoiler: it probably does not).
 
-## Just Looking for Slides?
+There are four big challenges to consider before converting a React.js application to a native application:
 
-You could check out this [PDF of my slides](TODO_exported_slides_url).
+1. The vastly different API that taps into native functionality on a wide range of phones
+2. Styling is no longer handling by stylesheets in the DOM, and the selection of CSS-in-JS libraries is vast and sometimes overwhelming.
+3. Navigation is no longer handled by an in-browser router, and native navigation functionality is complex between devices. The decision between a tab or drawer primary navigation alone can occupy a team for a full workday.
+4. Environment can be finicky, especially depending on where you plan to deploy your application (iOS app store compliance is notoriously tricky).
 
-Or maybe even the [live view](TODO_rvajs_slides_url).
+We also take a brief look at the future of react-native via their public roadmap and discuss alternatives to a native application, like a PWA or native wrapper for your React.js application like electron.
 
 ## Further Reading
 
