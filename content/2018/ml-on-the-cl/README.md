@@ -17,18 +17,18 @@ Although these projects also exist in the `demos/` dir at the root of this repos
 
 ### Further Reading
 
-- [Machine Learning for Web Developers](https://www.robinwieruch.de/machine-learning-javascript-web-developers/) — Robin Wieruch
-- [Machine Learning in Other Languages](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/) — Burak Kanber
+- [Machine Learning for Web Developers](https://www.robinwieruch.de/machine-learning-javascript-web-developers/) by Robin Wieruch
+- [Machine Learning in Other Languages](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/) by Burak Kanber
 - [A Beginner's Guide to Deep Reinforcement Learning](https://deeplearning4j.org/deepreinforcementlearning)
 
 ---
 
 ## Seen At
 
-**js.la**: June 28, 2018
+**js.la** on June 28th, 2018
 
-## Links
+### Slides
 
-PDF of slides: [https://github.com/kale-stew/ml-on-the-cl/blob/master/final.pdf](https://github.com/kale-stew/ml-on-the-cl/blob/master/final.pdf)
+→ [📺 Live view](https://kale-stew.github.io/ml-on-the-cl)
 
-Live slides: [https://kale-stew.github.io/ml-on-the-cl](https://kale-stew.github.io/ml-on-the-cl)
+→ [📑 Exported PDF](https://github.com/kale-stew/ml-on-the-cl/blob/master/final.pdf)

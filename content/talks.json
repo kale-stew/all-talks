@@ -1,8 +1,8 @@
 [
   {
     "id": "urql-devtools",
-    "title": "Demistifying urql using urql-devtools",
-    "description": "Taking a closer look at the urql browser DevTools and using them to better understand urql as a GraphQL client.",
+    "title": "Demystifying urql Using the Dev Tools",
+    "description": "Taking a closer look at the urql browser dev tools and using them to better understand urql as a GraphQL client.",
     "category": "graphql",
     "date": "2020-07-16",
     "presentedAt": [

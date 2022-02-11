@@ -11,6 +11,4 @@ For a clear cut guide of what is actually happening under the hood of a Query, G
 
 ## Seen At
 
-**UtahJS 2019:** September 20
-
-- https://conf.utahjs.com/
+**[UtahJS](https://conf.utahjs.com/) 2019** on September 20th

@@ -1,5 +1,5 @@
 ---
-title: 'Demystifying `urql` using The Devtools!'
+title: 'Demystifying URQL Using the Dev Tools'
 category: 'graphql'
 ---
 
@@ -24,6 +24,10 @@ In this talk, I cover a high-level overview of urql (a.k.a. Universal React Quer
 - ["Getting started with URQL, A Universal React Query Library" by Sumit Sharma](https://ednsquare.com/story/getting-started-with-urql-a-universal-react-query-library------cImqeQ)
 - ["Exploring urql from an Apollo perspective" by Peter Nycander](https://blog.logrocket.com/exploring-urql-from-an-apollo-perspective/)
 
-## Acknowledgements
+---
 
-This was presented virtually at the [RESTLess London](https://restlessldn.dev) and [GraphQL Denver](https://www.meetup.com/GraphQLDenver/) meetups. Thank you both for having me!
+## Seen At
+
+**[RESTLess London](https://restlessldn.dev)** on July 16th, 2020.
+
+**[GraphQL Denver](https://www.meetup.com/GraphQLDenver/events/267717269/)** on May 26th, 2020.

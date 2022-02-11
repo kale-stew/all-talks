@@ -1,5 +1,5 @@
 ---
-title: 'Using JavaScript to Teach Machines How to Do Cool Shit'
+title: 'Using JavaScript to Teach Machines How to Do Cool Things'
 category: 'machine learning'
 ---
 
@@ -23,26 +23,25 @@ In this talk, I cover:
 
 ### Further Reading
 
-- Step-by-Step Back propagation Example: https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
-- Anomaly Detection in JS: http://lukaszkrawczyk.eu/2013/12/30/anomaly-detection-for-js/
-- Creating a Neural Network in 30 Lines of JS Code: https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49
-- Neural Networks and Deep Learning: http://neuralnetworksanddeeplearning.com/index.html
-- Machine Learning in Other Languages: JavaScript: http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/
-- http://caza.la/synaptic/#/
-- https://github.com/tensorflow/playground
-- https://github.com/BrainJS/brain.js
-- https://lines.chromeexperiments.com/
+- [Step-by-Step Back propagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+- [Anomaly Detection in JS](http://lukaszkrawczyk.eu/2013/12/30/anomaly-detection-for-js/)
+- [Creating a Neural Network in 30 Lines of JS Code](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
+- [Machine Learning in Other Languages: JavaScript](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/)
+- [Synaptic.js](http://caza.la/synaptic/#/): Architecture-free neural network library for node.js and the browser
+- [Brain.js](https://github.com/BrainJS/brain.js): GPU-accelerated neural network library for node.js and the browser
+- [The Tensorflow Playground](https://github.com/tensorflow/playground)
 
 ---
 
 ## Seen At
 
-**Zeit Day**: April 28, 2018
+**Zeit Day** on April 28th, 2018
 
-→ Recorded presentation: [https://www.youtube.com/watch?v=QaV7a64mUYE](https://www.youtube.com/watch?v=QaV7a64mUYE)
+- [🎥 Recorded presentation](https://www.youtube.com/watch?v=QaV7a64mUYE)
 
-## Links
+### Slides
 
-PDF of slides: [https://github.com/kale-stew/zeit-day-2018/blob/master/final.pdf](https://github.com/kale-stew/zeit-day-2018/blob/master/final.pdf)
+→ [📺 Live view](https://kale-stew.github.io/zeit-day-2018/)
 
-Live slides: [https://kale-stew.github.io/zeit-day-2018/](https://kale-stew.github.io/zeit-day-2018/)
+→ [📑 Exported PDF](https://github.com/kale-stew/zeit-day-2018/blob/master/final.pdf)

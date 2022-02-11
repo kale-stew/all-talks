@@ -125,6 +125,6 @@ For folks looking to get started learning TypeScript, taking a look at [the fund
 
 ### Slides
 
-→ [📽 Live view](https://kale-stew.github.io/ts-in-react/)
+→ [📺 Live view](https://kale-stew.github.io/ts-in-react/)
 
 → [📑 Exported PDF](https://github.com/kale-stew/ts-in-react/blob/master/final.pdf)
