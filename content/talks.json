@@ -1,5 +1,21 @@
 [
   {
+    "id": "mcp-and-agent-workflows",
+    "title": "MCP: Going Beyond Task Execution",
+    "description": "Embracing agentic workflows as the next iteration of the MCP client-server model.",
+    "category": "ai",
+    "date": "2025-05-14",
+    "presentedAt": [
+      {
+        "eventDate": "2025-05-14",
+        "eventName": "MCP Night",
+        "eventType": "meetup",
+        "eventUrl": "https://lu.ma/quvg7kzs?tk=hC0BvS",
+        "location": "San Francisco, CA"
+      }
+    ]
+  },
+  {
     "id": "performant-ab-testing",
     "title": "Performant Experimentation at Scale",
     "description": "Developing data-driven experiments without introducing layout shift, using Next.js and Edge Middleware.",
@@ -107,7 +123,7 @@
     "id": "ml-on-the-cl",
     "title": "ML on the CL",
     "description": "Implementing machine learning on the command line using Node.js libraries. This talk highlights a few quick-start projects you can get started with on your own.",
-    "category": "machine learning",
+    "category": "ai",
     "date": "2018-06-28",
     "presentedAt": [
       {
@@ -124,7 +140,7 @@
     "id": "machine-learning-with-javascript",
     "title": "Teaching Machines How to Do Cool Things with JavaScript",
     "description": "Taking a closer look at modern applications of machine learning, and then discussing the how and why of JavaScript implementation of that technology.",
-    "category": "machine learning",
+    "category": "ai",
     "date": "2018-04-28",
     "presentedAt": [
       {

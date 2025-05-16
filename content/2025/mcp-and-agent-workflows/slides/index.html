@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>MCP Night · May 14, 2025</title>
+  <link rel="icon" type="image/png" href="/assets/cf-logo.png" />
+</head>
+
+<body>
+  <div class="reveal">
+    <!-- Styles -->
+    <div class="line top"></div>
+    <div class="line bottom"></div>
+    <div class="line left"></div>
+    <div class="line right"></div>
+
+    <!-- Title, Intro -->
+    <div class="slides">
+      <section data-markdown>
+        # MCP:
+        # Building Beyond Task Execution
+      </section>
+      <section>
+        <div style="font-size: 54px">Kylie Czajkowski 👩🏼‍💻</div>
+        <p>Engineering Manager, Workers</p>
+        <img src="/assets/cf-wordprint.png" alt="Cloudflare logo"
+          style="height: 90px; margin: 4rem auto 0 auto; background: transparent;">
+      </section>
+
+      <!-- Content -->
+      <section>
+        <h3>MCP Host → Client → Server</h3>
+        <img src="/assets/mcp_model.png" alt="MCP primitives" style="height: 450px; background: transparent;">
+      </section>
+      <section class="fragments">
+        <h1>Agents</h1>
+        <p class="fragment">
+          LLMs that have access to tools
+        </p>
+      </section>
+      <section>
+        <h3>MCP Clients: Task Execution</h3>
+        <img src="/assets/mcp_tasks.png" alt="Using MCP clients and servers for tasks"
+          style="height: 450px; background: transparent;">
+      </section>
+      <section>
+        <h3>MCP Clients: Agentic Workflows</h3>
+        <img src="/assets/mcp_host_client_server_agent.png" alt="Relationship of Agent → MCP Host → Client → Server"
+          style="height: 450px; background: transparent;">
+      </section>
+      <section class="fragments" data-transition="zoom">
+        <h2>MCP Servers</h2>
+        <p class="fragment"> May 1: Cloudflare launched 13 new remote servers</p>
+        <p class="fragment"><a href="https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps">
+            github.com/cloudflare/mcp-server-cloudflare
+          </a></p>
+      </section>
+      <section class="fragments">
+        <h2><a href="https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps">MCP Servers</a></h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Server Name</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="fragment">
+              <td>docs-vectorize</td>
+              <td>Developer docs autoRAG</td>
+            </tr>
+            <tr class="fragment">
+              <td>sandbox-container</td>
+              <td>Secure sandbox environments</td>
+            </tr>
+            <tr class="fragment">
+              <td>workers-bindings</td>
+              <td>Manage Worker resources</td>
+            </tr>
+            <tr class="fragment">
+              <td>workers-observability</td>
+              <td>Worker insights, trends</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- <section data-transition="zoom">
+        <h2>The Era of Personal Software</h2>
+      </section> -->
+      <section data-transition="zoom">
+        <img src="/assets/threepointone_personal_software.png" alt="Relationship of Agent → MCP Host → Client → Server"
+          style="height: 450px; background: transparent;">
+      </section>
+      <section>
+        <h2>Tools to start with</h2>
+        <li>Build your own MCP Server</li>
+        <li>Call it from <a href="https://playground.ai.cloudflare.com/">playground.ai.cloudflare.com</a></li>
+        <li>Subscribe to <a href="https://github.com/cloudflare/agents">github.com/cloudflare/agents</a> updates</li>
+      </section>
+
+      <!-- Exit Slide -->
+      <section data-background-gradient="linear-gradient(to right, #ff811a, #c25801)" data-background-transition="zoom"
+        style="color: #f4f4f4; font-weight: 500;">
+        <div style="font-size: 58px">👋 Thank you!</div>
+        <br />
+        <p><a href="https://x.com/kyliestew" style="color: #f4f4f4;">
+            @kyliestew</a> on x</p>
+        <p><a href="https://bsky.app/profile/kylieis.online" style="color: #f4f4f4;">
+            @kylieis.online</a> on bsky</p>
+        <img src="/assets/cf-logo.png" alt="Cloudflare logo"
+          style="height: 175px; margin: 4rem auto 0 auto; background: transparent;">
+      </section>
+
+
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

@@ -23,6 +23,8 @@ _Inspired by [Jason Lengstorf](https://lengstorf.com/)'s own [`presentations` re
 
 ## Talk Content
 
+- [2025](./content/2025)
+  - [MCP: Going Beyond Task Execution](./content/2025/mcp-and-agent-workflows)
 - [2023](./content/2023)
   - [Performant Experimentation at Scale](./content/2023/performant-ab-testing)
 - [2020](./content/2020)
@@ -31,7 +33,7 @@ _Inspired by [Jason Lengstorf](https://lengstorf.com/)'s own [`presentations` re
   - [TypeScript + React: A Love Story ❤️](./content/2019/ts-in-react)
   - [React to React Native: How Hard Could It Be?](./content/2019/react-to-react-native)
   - [Evolution of an API: A Case for GraphQL](./content/2019/evolution-of-an-api)
-  - [React to React Native: How Hard Could It Be?](./content/react-to-react-native)
+  - [React to React Native: How Hard Could It Be?](./content/2019/react-to-react-native)
 - [2018](./content/2018)
   - [Machine Learning with JavaScript](./content/2018/machine-learning-with-javascript)
   - [ML on the CL](./content/2018/ml-on-the-cl)
