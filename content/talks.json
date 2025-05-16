@@ -1,5 +1,38 @@
 [
   {
+    "id": "mcps-and-agent-workflows",
+    "title": "MCPs: Going Beyond Task Execution",
+    "description": "Embracing agentic workflows as the next iteration of the MCP client-server model.",
+    "category": "ai",
+    "date": "2025-05-14",
+    "presentedAt": [
+      {
+        "eventDate": "2025-05-14",
+        "eventName": "MCP Night",
+        "eventType": "meetup",
+        "eventUrl": "https://lu.ma/quvg7kzs?tk=hC0BvS",
+        "location": "San Francisco, CA"
+      }
+    ]
+  },
+  {
+    "id": "performant-ab-testing",
+    "title": "Performant Experimentation at Scale",
+    "description": "Developing data-driven experiments without introducing layout shift, using Next.js and Edge Middleware.",
+    "category": "nextjs",
+    "date": "2022-10-22",
+    "presentedAt": [
+      {
+        "eventDate": "2022-10-22",
+        "eventName": "Next.js Conf",
+        "eventType": "conference",
+        "eventUrl": "https://nextjs.org/conf",
+        "recordedPresentationUrl": "https://www.youtube.com/watch?v=c_wYt7ur2yc",
+        "location": "San Francisco, CA"
+      }
+    ]
+  },
+  {
     "id": "urql-devtools",
     "title": "Demystifying urql Using the Dev Tools",
     "description": "Taking a closer look at the urql browser dev tools and using them to better understand urql as a GraphQL client.",
@@ -11,7 +44,6 @@
         "eventName": "GraphQL Denver",
         "eventType": "meetup",
         "eventUrl": "https://www.meetup.com/GraphQLDenver/events/267717269/",
-        "recordedPresentationUrl": "",
         "location": "virtual"
       },
       {
@@ -19,7 +51,6 @@
         "eventName": "RESTLess London",
         "eventType": "meetup",
         "eventUrl": "",
-        "recordedPresentationUrl": "",
         "location": "virtual"
       }
     ]
@@ -36,7 +67,6 @@
         "eventName": "UtahJS",
         "eventType": "conference",
         "eventUrl": "https://conf.utahjs.com/",
-        "recordedPresentationUrl": "",
         "location": "Salt Lake City, UT"
       }
     ]
@@ -78,7 +108,6 @@
         "eventName": "RVA.js",
         "eventType": "conference",
         "eventUrl": "",
-        "recordedPresentationUrl": "",
         "location": "Richmond, VA"
       },
       {
@@ -86,7 +115,6 @@
         "eventName": "DenverScript",
         "eventType": "meetup",
         "eventUrl": "https://www.code-talent.com/event-calendar/2019/5/28/denver-script",
-        "recordedPresentationUrl": "",
         "location": "Denver, CO"
       }
     ]

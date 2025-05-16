@@ -1,0 +1,19 @@
+{
+  "name": "mcp-night",
+  "description": "Presentation for MCP Night, May 14 2025.",
+  "author": "Kylie Czajkowski (hello@kylieis.online)",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "reveal.js": "^5.1.0"
+  },
+  "license": "MIT"
+}
