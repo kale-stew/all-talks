@@ -1,5 +1,19 @@
 [
   {
+    "id": "mcps-and-agent-workflows",
+    "title": "MCPs: Going Beyond Task Execution",
+    "description": "Embracing agentic workflows as the next iteration of the MCP client-server model.",
+    "presentedAt": [
+      {
+        "eventDate": "2025-05-14",
+        "eventName": "MCP Night",
+        "eventType": "meetup",
+        "eventUrl": "https://lu.ma/quvg7kzs?tk=hC0BvS",
+        "location": "San Francisco, CA"
+      }
+    ]
+  },
+  {
     "id": "performant-ab-testing",
     "title": "Performant Experimentation at Scale",
     "description": "Developing data-driven experiments without introducing layout shift, using Next.js and Edge Middleware.",
