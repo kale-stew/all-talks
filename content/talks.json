@@ -1,5 +1,22 @@
 [
   {
+    "id": "performant-ab-testing",
+    "title": "Performant Experimentation at Scale",
+    "description": "Developing data-driven experiments without introducing layout shift, using Next.js and Edge Middleware.",
+    "category": "next.js",
+    "date": "2023-10-22",
+    "presentedAt": [
+      {
+        "eventDate": "2023-10-22",
+        "eventName": "Next.js Conf",
+        "eventType": "conference",
+        "eventUrl": "https://nextjs.org/conf",
+        "recordedPresentationUrl": "https://www.youtube.com/watch?v=c_wYt7ur2yc",
+        "location": "San Francisco, CA"
+      }
+    ]
+  },
+  {
     "id": "urql-devtools",
     "title": "Demystifying urql Using the Dev Tools",
     "description": "Taking a closer look at the urql browser dev tools and using them to better understand urql as a GraphQL client.",
@@ -11,7 +28,6 @@
         "eventName": "GraphQL Denver",
         "eventType": "meetup",
         "eventUrl": "https://www.meetup.com/GraphQLDenver/events/267717269/",
-        "recordedPresentationUrl": "",
         "location": "virtual"
       },
       {
@@ -19,7 +35,6 @@
         "eventName": "RESTLess London",
         "eventType": "meetup",
         "eventUrl": "",
-        "recordedPresentationUrl": "",
         "location": "virtual"
       }
     ]
@@ -36,7 +51,6 @@
         "eventName": "UtahJS",
         "eventType": "conference",
         "eventUrl": "https://conf.utahjs.com/",
-        "recordedPresentationUrl": "",
         "location": "Salt Lake City, UT"
       }
     ]
@@ -78,7 +92,6 @@
         "eventName": "RVA.js",
         "eventType": "conference",
         "eventUrl": "",
-        "recordedPresentationUrl": "",
         "location": "Richmond, VA"
       },
       {
@@ -86,7 +99,6 @@
         "eventName": "DenverScript",
         "eventType": "meetup",
         "eventUrl": "https://www.code-talent.com/event-calendar/2019/5/28/denver-script",
-        "recordedPresentationUrl": "",
         "location": "Denver, CO"
       }
     ]

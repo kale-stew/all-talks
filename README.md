@@ -1,10 +1,10 @@
 # Conference Talks and Other Presentations
 
-#### by Kylie Stewart
+#### by Kylie Czajkowski
 
-In the spirit of consolidating the many demo projects, slides, and abstracts I have scattered on my laptop, I've put together this repo to create a one-stop shop for my presentations, including relevant demos, slide decks, and other resources.
+This is a consolidated source of the many demo projects, slides, abstracts, and other resources I have spun up since I started giving presentations in 2018.
 
-There is a hosted blog if you would like a better (see: prettier, more fluid, human-readable) navigation experience at [kylieis.online/talks](https://www.kylieis.online/talks).
+If you would like a different navigation experience, there is a hosted blog version of this content at [kylieis.online/talks](https://www.kylieis.online/talks).
 
 _Inspired by [Jason Lengstorf](https://lengstorf.com/)'s own [`presentations` repo](https://github.com/jlengstorf/presentations/)._
 
@@ -19,10 +19,12 @@ _Inspired by [Jason Lengstorf](https://lengstorf.com/)'s own [`presentations` re
 
 ### Short version
 
-> Kylie Stewart is an engineer and occasional speaker. She is passionate about building tools and high-performing applications, as well as hiking with her dog, Otis. She lives in Denver, Colorado.
+> Kylie Czajkowski is an engineer and occasional speaker. She is passionate about building quality developer tools and high-performing applications, as well as hiking with her husband and dog. She lives in San Francisco, California.
 
 ## Talk Content
 
+- [2023](./content/2023)
+  - [Performant Experimentation at Scale](./content/2023/performant-ab-testing)
 - [2020](./content/2020)
   - [Demystifying `urql` using `urql-devtools`](./content/2020/urql-devtools)
 - [2019](./content/2019)
@@ -48,21 +50,19 @@ Every new entry is added to my [source talks doc](https://raw.githubusercontent.
 export const AllTalks = [
   {
     // https://github.com/kale-stew/all-talks/blob/main/content/talks.js
-    title: '',
-    description: '',
-    presentedAt: [
+    "id": "directory-slug",
+    "title": "",
+    "description": "",
+    "presentedAt": [
       {
-        eventDate: '',
-        eventName: '',
-        eventType: '[conference | meetup}',
-        eventUrl: '',
-        recordedPresentationUrl: '',
-        location: 'city, state' | null,
+        "eventDate": "",
+        "eventName": "",
+        "eventType": "conference | meetup",
+        "eventUrl": "",
+        "recordedPresentationUrl": "",
+        "location": "city, state" | null,
       },
-    ],
-    exportedSlidesUrl: '',
-    hostedSlidesUrl: '',
-    previewImg: '',
+    ]
   },
 ]
 ```
