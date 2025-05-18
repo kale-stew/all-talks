@@ -28,6 +28,6 @@ In this talk, I cover a high-level overview of urql (a.k.a. Universal React Quer
 
 ## Seen At
 
-**[RESTLess London](https://restlessldn.dev)** on July 16th, 2020.
+**[RESTLess London](https://restlessldn.dev)** on July 16th, 2020
 
-**[GraphQL Denver](https://www.meetup.com/GraphQLDenver/events/267717269/)** on May 26th, 2020.
+**[GraphQL Denver](https://www.meetup.com/GraphQLDenver/events/267717269/)** on May 26th, 2020

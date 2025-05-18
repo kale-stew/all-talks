@@ -35,7 +35,7 @@ Being an open-sourced software, we can take a look at React Native’s public ro
 
 **[DenverScript](https://www.code-talent.com/event-calendar/2019/5/28/denver-script)** on May 28th, 2019
 
-**[RVA.js](http://rvajs.com) 2019** on November 15th
+**[RVA.js](http://rvajs.com)** on November 15th, 2019
 
 ### Slides
 

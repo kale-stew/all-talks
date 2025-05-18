@@ -52,19 +52,19 @@ Every new entry is added to my [source talks doc](https://raw.githubusercontent.
 export const AllTalks = [
   {
     // https://github.com/kale-stew/all-talks/blob/main/content/talks.js
-    id: 'directory-slug',
-    title: '',
-    description: '',
-    category: 'ai | react | nextjs | graphql',
-    date: 'yyyy-mm-dd',
-    presentedAt: [
+    "id": "directory-slug",
+    "title": "",
+    "description": "",
+    "category": "ai | react | nextjs | graphql",
+    "date": "yyyy-mm-dd",
+    "presentedAt": [
       {
-        eventDate: '',
-        eventName: '',
-        eventType: 'conference | meetup',
-        eventUrl: '',
-        recordedPresentationUrl: '',
-        location: 'city, state' | null,
+        "eventDate": "",
+        "eventName": "",
+        "eventType": "conference | meetup",
+        "eventUrl": "",
+        "recordedPresentationUrl": "",
+        "location": "city, state" | null,
       },
     ],
   },
